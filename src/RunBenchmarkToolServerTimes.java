@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicLong;
 
 class ReadWriteFileCallable implements Callable<Long> {
   private static final String putBase = "hdfs dfs -put /tmp/ec-isa.img";
@@ -50,11 +51,11 @@ class ReadWriteFileCallable implements Callable<Long> {
     }
   }
 
-  static int i = 1;
+  static AtomicLong i = new AtomicLong(1);
 
   @Override
   public Long call() throws Exception {
-    System.out.println("Concurrent process is  " + i++);
+    System.out.println("Concurrent process is  " + i.getAndIncrement());
     System.out.println("Running " + cmd);
 
     long start = System.currentTimeMillis();
