@@ -13,6 +13,14 @@ raid.img, 只要输入raid就可以, ec-new-java.img 只要输入 new-java就可
 
 UseBlockQueue 多个线程使用阻塞队列,并且先后有序
 
-指定哪一个类运行, 在META-INF里面的MANIFEST.MF里面进行设置你要执行的类
+3：UseReentrantLockImpBlockQueue 用可重入锁实现阻塞队列
+   UseReenBQ 作为客户端并发的访问它
 
+4：TestStaticVal 测试 static 的共享
+
+
+java -jar javaproject.jar xxx
+指定哪一个类运行, 在META-INF里面的MANIFEST.MF里面进行设置你要执行的类
 Manifest-Version: 1.0 Main-Class: UseBlockQueue
+
+
