@@ -102,9 +102,7 @@ public class RunBenchmarkToolServerTimes {
     long startTime = System.currentTimeMillis();
     ExecutorService executor = Executors.newFixedThreadPool(numClient);
     List<Future<Long>> futureList = new ArrayList<>();
-
     List<ReadWriteFileCallable> callables=new ArrayList<>();
-
     for (int i = 0; i < numClient; i++) {
       ReadWriteFileCallable callable = new ReadWriteFileCallable(read, ec, coder);
       futureList.add(executor.submit(callable));
@@ -128,7 +126,7 @@ public class RunBenchmarkToolServerTimes {
     System.out.println("Total Throughput = " + (numClient * 12 * 1024 / ((endTime - startTime)/1000.0)) + " MB/s");
     System.out.println("Average time = " + sumTime / numClient + " s");
     executor.shutdown();
-    for(ReadWriteFileCallable callable:callables){
+    for(ReadWriteFileCallable callable:callables) {
       callable.cleanUp();
     }
   }
