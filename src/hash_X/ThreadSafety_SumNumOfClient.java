@@ -24,21 +24,17 @@ public class ThreadSafety_SumNumOfClient {
    * This method need thread safety.
    */
   static Integer j = 0;
-  int max = 0;
-  List<Integer> list = new ArrayList<Integer>(20); // number of clients.
-  void handleAndReturnMax_Number_Customer(Socket socket) {
+  public void handleAndReturnMax_Number_Customer(Socket socket) {
     synchronized(j) {
       j++;
-      list.add(j);
     }
+    System.out.println("We have " + j + " customer access now.");
+
   }
 
-  public void OutputMaxNumberOfClientAccess() {
-    for (Integer integer : list) {
-      if (integer > max)
-        max = integer;
-    }
-    System.out.println("We have " + max + " customer access now.");
+  // handleAndReturnMax_Number_Customer may have problem, if below situation happen.
+  public void fun(){
+    j--;
   }
 
 }

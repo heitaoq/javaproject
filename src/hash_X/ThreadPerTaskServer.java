@@ -17,9 +17,10 @@ public class ThreadPerTaskServer {
       new Thread(new Runnable() {
         @Override
         public void run() {
-          new ThreadSafety_SumNumOfClient().handleAndReturnMax_Number_Customer(conn);
+          new ThreadSafety_SumNumOfClient().handleRequest(conn);
         }
       }).start();
     }
+
   }
 }
