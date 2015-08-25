@@ -8,6 +8,8 @@ import java.util.concurrent.Executors;
 
 /**
  * A web server based on ThreadPool.
+ * Make field final unless they need to be mutable.
+ *
  */
 public class TaskExecutionServer {
   private static final int NTHREADS = 5;
