@@ -7,7 +7,7 @@ public class GenerateServerFileOnHDFS {
   private static AtomicLong num = new AtomicLong(); // how many file you will put
   private static int numThread;
   private static String command =
-      "hadoop fs -put /tmp/ec-isa.img /abc/" + num + ".img";
+      "hadoop fs -put /tmp/ec-isa.img /non-ec-" + num.get() + ".img";
 
   public GenerateServerFileOnHDFS() {
   }
