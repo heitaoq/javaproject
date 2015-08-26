@@ -51,6 +51,10 @@ class ReadWriteFileCallable implements Callable<Long> {
     }
   }
 
+  public void generateServerFileOnHDFS(int number) {
+
+  }
+
   static AtomicLong i = new AtomicLong(1);
 
   @Override

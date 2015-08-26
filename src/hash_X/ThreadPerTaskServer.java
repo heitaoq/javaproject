@@ -21,8 +21,5 @@ public class ThreadPerTaskServer {
         }
       }).start();
     }
-
-
-
   }
 }
