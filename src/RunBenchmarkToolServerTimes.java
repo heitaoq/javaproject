@@ -15,9 +15,11 @@ class ReadWriteFileCallable implements Callable<Long> {
 
   private final String cmd;
   private final String fileName;
-
+  private static final int NumberFile = 20;
   private final boolean isRead;
   private final boolean isEc;
+  static AtomicLong i = new AtomicLong();
+  long id = i.getAndIncrement();
 
   public ReadWriteFileCallable(boolean read, boolean isEc,String coder) {
     fileName = UUID.randomUUID().toString();
@@ -29,7 +31,7 @@ class ReadWriteFileCallable implements Callable<Long> {
       if(isEc) {
         sourceFileName="ec-"+coder.toLowerCase()+".img";
       }else {
-        sourceFileName="non-ec.img";
+        sourceFileName="nonec-"+(id % NumberFile)+".img";
       }
       cmd= getBase+" "+getDir+sourceFileName+" "+localDir+fileName;
     } else {
@@ -44,25 +46,22 @@ class ReadWriteFileCallable implements Callable<Long> {
     } else {
       String cleanUpCmd = "hadoop fs -rm " + (isEc ? ecDir : "/")+"abc" + fileName;
       try {
-        Runtime.getRuntime().exec(cleanUpCmd).waitFor();
+        Runtime.getRuntime().exec(cleanUpCmd).waitFor(); // Use waitFor is for time statistics
       } catch (Exception e) {
         System.out.println(e.getMessage());
       }
     }
   }
 
-  public void generateServerFileOnHDFS(int number) {
-
-  }
-
-  static AtomicLong i = new AtomicLong(1);
-
   @Override
   public Long call() throws Exception {
-    System.out.println("Concurrent process is  " + i.getAndIncrement());
+
+
+    System.out.println("Concurrent process is  " + id);
     System.out.println("Running " + cmd);
 
     long start = System.currentTimeMillis();
+
     Process process = Runtime.getRuntime().exec(cmd);
     if (process.waitFor() != 0) {
       BufferedReader readerInputStream = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -79,7 +78,9 @@ class ReadWriteFileCallable implements Callable<Long> {
       }
       return -1L;
     } else {
+
       long end = System.currentTimeMillis();
+
       long time = end - start;
       return time;
     }
