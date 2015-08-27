@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 class ReadWriteFileCallable implements Callable<Long> {
@@ -18,8 +19,8 @@ class ReadWriteFileCallable implements Callable<Long> {
   private static final int NumberFile = 20;
   private final boolean isRead;
   private final boolean isEc;
-  static AtomicLong i = new AtomicLong();
-  long id = i.getAndIncrement();
+  static AtomicInteger it = new AtomicInteger();
+  int id = it.getAndIncrement();
 
   public ReadWriteFileCallable(boolean read, boolean isEc,String coder) {
     fileName = UUID.randomUUID().toString();
@@ -29,8 +30,8 @@ class ReadWriteFileCallable implements Callable<Long> {
       String getDir = isEc ? ecDir : "/";
       String sourceFileName;
       if(isEc) {
-        sourceFileName="ec-"+coder.toLowerCase()+".img";
-      }else {
+        sourceFileName = "ec-"+(id % NumberFile)+".img";
+      } else {
         sourceFileName="nonec-"+(id % NumberFile)+".img";
       }
       cmd= getBase+" "+getDir+sourceFileName+" "+localDir+fileName;
@@ -105,9 +106,11 @@ public class RunBenchmarkToolServerTimes {
       return;
     }
     long startTime = System.currentTimeMillis();
+
     ExecutorService executor = Executors.newFixedThreadPool(numClient);
     List<Future<Long>> futureList = new ArrayList<>();
     List<ReadWriteFileCallable> callables=new ArrayList<>();
+
     for (int i = 0; i < numClient; i++) {
       ReadWriteFileCallable callable = new ReadWriteFileCallable(read, ec, coder);
       futureList.add(executor.submit(callable));

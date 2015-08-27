@@ -10,13 +10,11 @@ public class GenerateServerFileOnHDFS {
   static AtomicInteger num = new AtomicInteger();
 
   public static void generateServerFileOnHDFS() {
-
     int id = num.getAndIncrement();
     String command = "hadoop fs -put /tmp/ec-isa.img /nonec-" + id + ".img";
-
     String commandEC = "hadoop fs -put /tmp/ec-isa.img /ec-test/ec-" + id + ".img";
-
     try {
+      System.out.println("Current Thread name = " + Thread.currentThread().getName());
       Runtime.getRuntime().exec(command).waitFor();
       Runtime.getRuntime().exec(commandEC).waitFor();
     } catch (Exception e) {
