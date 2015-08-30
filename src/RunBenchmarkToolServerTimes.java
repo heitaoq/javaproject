@@ -56,13 +56,9 @@ class ReadWriteFileCallable implements Callable<Long> {
 
   @Override
   public Long call() throws Exception {
-
-
     System.out.println("Concurrent process is  " + id);
     System.out.println("Running " + cmd);
-
     long start = System.currentTimeMillis();
-
     Process process = Runtime.getRuntime().exec(cmd);
     if (process.waitFor() != 0) {
       BufferedReader readerInputStream = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -79,9 +75,7 @@ class ReadWriteFileCallable implements Callable<Long> {
       }
       return -1L;
     } else {
-
       long end = System.currentTimeMillis();
-
       long time = end - start;
       return time;
     }
