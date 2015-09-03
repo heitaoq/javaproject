@@ -1,6 +1,7 @@
 /**
  * Created by mingleiz on 8/20/2015.
  */
+
 class Person {
   public static int age;
   public void setAge(int age_) {
