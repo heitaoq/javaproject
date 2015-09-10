@@ -11,8 +11,8 @@ public class GenerateServerFileOnHDFS {
 
   public static void generateServerFileOnHDFS() {
     int id = num.getAndIncrement();
-    String command = "hadoop fs -put /tmp/ec-isa.img /nonec-" + id + ".img";
-    String commandEC = "hadoop fs -put /tmp/ec-isa.img /ec-test/ec-" + id + ".img";
+    String command = "hadoop fs -put /tmp/ec-isa.img /HDFS-7285-Non-Policy/nonec-" + id + ".img";
+    String commandEC = "hadoop fs -put /tmp/ec-isa.img /HDFS-7285-Policy/ec-" + id + ".img";
     try {
       System.out.println("Current Thread name = " + Thread.currentThread().getName());
       Runtime.getRuntime().exec(command).waitFor();
@@ -28,7 +28,6 @@ public class GenerateServerFileOnHDFS {
     ExecutorService exec = Executors.newFixedThreadPool(numThread);
     while ( num++ < numThread) {
       Runnable task = new Runnable() {
-        @Override
         public void run() {
           GenerateServerFileOnHDFS.generateServerFileOnHDFS();
         }

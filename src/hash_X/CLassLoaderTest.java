@@ -3,8 +3,7 @@ import java.io.*;
 public class CLassLoaderTest {
   public static void main(String[] args) throws Exception {
     ClassLoader myLoader = new ClassLoader() {
-      @Override
-      public Class<?> findClass(String name) throws ClassNotFoundException {
+      public Class findClass(String name) throws ClassNotFoundException {
         try {
           String fileName = name.substring(name.lastIndexOf(".") + 1) + ".class";
           System.out.println("fileName = " + fileName);
