@@ -3,17 +3,19 @@ package Serialization;
 import java.io.FileOutputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
+import java.util.Date;
 
 /**
- * Created by mingleiz on 9/9/2015.
+ * Writing to an Object Stream
+ * At first, you should get the output stream, and then write to this outputstream is ok.
  */
 public class Test1 {
   public static void main(String[] args) {
     try {
       FileOutputStream f = new FileOutputStream("tmp");
       ObjectOutput s = new ObjectOutputStream(f);
-      s.writeObject("1");
-//      s.writeObject(new Date());
+      s.writeObject("HelloWorld");
+      s.writeObject(new Date());
       s.flush();
     } catch (Exception e) {
       e.getMessage();
