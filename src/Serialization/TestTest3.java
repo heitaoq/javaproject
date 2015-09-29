@@ -1,18 +1,15 @@
-package Serialization;
-
+package src.Serialization;
 import java.io.*;
-
 /**
  * Created by mingleiz on 9/12/2015.
  */
 public class TestTest3 {
-  public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
+  public static void main(String[] args) throws IOException, ClassNotFoundException {
     SerializeObject();
     Deserialize();
-
   }
 
-  private static Test3 Deserialize() throws FileNotFoundException, IOException, ClassNotFoundException {
+  private static Test3 Deserialize() throws IOException, ClassNotFoundException {
     ObjectInputStream oi =
         new ObjectInputStream(new FileInputStream(new File("serialize.txt")));
     Test3 object = (Test3) oi.readObject();
@@ -26,7 +23,7 @@ public class TestTest3 {
    * @throws FileNotFoundException
    * @throws IOException
    */
-  private static void SerializeObject() throws FileNotFoundException, IOException {
+  private static void SerializeObject() throws IOException {
     Test3 object = new Test3();
     object.setName("Jackie");
     object.setAge(25);
