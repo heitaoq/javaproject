@@ -12,9 +12,15 @@ public class ChannelExample {
   public static void main(String[] args) throws Exception{
     RandomAccessFile file = new RandomAccessFile("C:\\Users\\mingleiz\\flatbuffer.txt", "r");
     FileChannel fileChannel = file.getChannel();
-    ByteBuffer byteBuffer = ByteBuffer.allocate(512);
+    ByteBuffer byteBuffer = ByteBuffer.allocate(330);
+    int posisss = byteBuffer.position();
+    int limitsss = byteBuffer.limit();
+
     while (fileChannel.read(byteBuffer) > 0) {
+      int posis = byteBuffer.position();
+      int limitss = byteBuffer.limit();
       byteBuffer.flip();
+      int limits = byteBuffer.limit();
       while (byteBuffer.hasRemaining()) {
         int posi = byteBuffer.position();
         int capa = byteBuffer.capacity();
@@ -24,8 +30,8 @@ public class ChannelExample {
          */
         int limit = byteBuffer.limit();
         System.out.print((char)byteBuffer.get());
-      }
-      byteBuffer.clear();
+      } // while end
+      byteBuffer.clear(); // 当在 position 和 limit 之间没有元素的时候就要清除缓冲区了
     }
     file.close();
   }
