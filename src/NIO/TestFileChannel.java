@@ -9,8 +9,9 @@ import java.nio.channels.FileChannel;
 public class TestFileChannel {
   public static void main(String[] args) throws Exception{
     FileInputStream fis = new FileInputStream("C:\\Users\\mingleiz\\flatbuffer.txt");
+    //  A channel for reading, writing, mapping, and manipulating a file.
     FileChannel fileChannel = fis.getChannel();
     long sizeFile = fileChannel.size(); // the size of file
-
+    
   }
 }

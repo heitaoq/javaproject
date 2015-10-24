@@ -1,4 +1,4 @@
-package BasicJava;
+package src.BasicJava;
 
 /**
  * Created by mingleiz on 9/8/2015.
