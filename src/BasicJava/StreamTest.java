@@ -1,7 +1,6 @@
 package src.BasicJava;
 
 import java.io.*;
-import java.util.ArrayList;
 
 /**
  * Java's stream based IO is built upon four abstract classes:
@@ -110,8 +109,6 @@ public class StreamTest {
       System.out.print((char)c);
     }
   }
-
-
 
   public static void main(String[] args) throws Exception{
 //    testArrayList();
