@@ -1,5 +1,6 @@
 package src.NIO;
 
+import java.io.File;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -11,12 +12,15 @@ import java.nio.channels.FileChannel;
 public class ChannelExample {
   public static void main(String[] args) throws Exception{
     RandomAccessFile file = new RandomAccessFile("C:\\Users\\mingleiz\\flatbuffer.txt", "r");
-    FileChannel fileChannel = file.getChannel();
+    FileChannel fileChannel = file.getChannel(); // if you use File, you can not get a FileChannel
+
+    // Once a file channel is opened, obtain the size of the file is called size(), measured in bytes.
+    long sizeOfFile = fileChannel.size();
     ByteBuffer byteBuffer = ByteBuffer.allocate(330);
     /**
      * fileChannel.read(byteBuffer)
      */
-    while (fileChannel.read(byteBuffer) > 0) {
+    while (fileChannel.read(byteBuffer) > 0) {  
       //
       byteBuffer.flip();
       while (byteBuffer.hasRemaining()) {
