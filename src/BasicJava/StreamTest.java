@@ -110,12 +110,26 @@ public class StreamTest {
     }
   }
 
+  static void testDataStreamAndRandomAccessFile() throws Exception {
+    FileOutputStream out = new FileOutputStream("TestFile.dat");
+    DataOutputStream dout = new DataOutputStream(out);
+    long size = "HelloWorld".getBytes().length;
+    dout.write("HelloWorld".getBytes());
+    dout.writeInt(1000);
+
+    RandomAccessFile file = new RandomAccessFile("TestFile.dat", "r");
+    file.seek(size);
+    int num = file.readInt();
+    
+  }
+
   public static void main(String[] args) throws Exception{
 //    testArrayList();
 //      testFileStream();
 //        testByteStream();
 //    testBufferStream();
 //    testDataStream();
-    testRandomAccessFile();
+//    testRandomAccessFile();
+    testDataStreamAndRandomAccessFile();
   }
 }
