@@ -1,3 +1,4 @@
+import java.io.FileInputStream;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -8,7 +9,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class GenerateServerFileOnHDFS {
 
   static AtomicInteger num = new AtomicInteger();
-
   public static void generateServerFileOnHDFS() {
     int id = num.getAndIncrement();
     String command = "hadoop fs -put /tmp/ec-isa.img /HDFS-7285-Non-Policy/nonec-" + id + ".img";
