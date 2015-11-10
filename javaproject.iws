@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f808c6-c7f2-4c24-adc3-f80474af784d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BasicJava/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BasicJava/TestException.java" />
       <change type="DELETED" beforePath="C:\Users\mingleiz\native\javaproject\out\production\javaproject\Algorithm\QuickSort.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\mingleiz\native\javaproject\out\production\javaproject\BasicJava\ClassLoadtest.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\mingleiz\native\javaproject\out\production\javaproject\BasicJava\LinkedList.class" afterPath="" />
@@ -21,12 +19,6 @@
       <change type="DELETED" beforePath="C:\Users\mingleiz\native\javaproject\target\classes\src\Algorithm\QuickSort.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\mingleiz\native\javaproject\target\classes\src\Leecode\QuickSort.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\mingleiz\native\javaproject\target\classes\src\Leecode\Rotate.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaproject/GenerateServerFileOnHDFS.class" afterPath="$PROJECT_DIR$/out/production/javaproject/GenerateServerFileOnHDFS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/RotateList.class" afterPath="$PROJECT_DIR$/target/classes/src/Leecode/RotateList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GenerateServerFileOnHDFS.java" afterPath="$PROJECT_DIR$/src/GenerateServerFileOnHDFS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Leecode/RotateList.java" afterPath="$PROJECT_DIR$/src/Leecode/RotateList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaproject.iws" afterPath="$PROJECT_DIR$/javaproject.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javaproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -621,7 +613,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
