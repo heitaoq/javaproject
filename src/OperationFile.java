@@ -1,3 +1,4 @@
+package src;
 import java.io.*;
 import java.nio.Buffer;
 
@@ -19,8 +20,6 @@ public class OperationFile {
     } catch (Exception ex) {
       ex.getMessage();
     }
-
-
   }
 
 }

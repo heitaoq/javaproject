@@ -1,3 +1,4 @@
+package src;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
@@ -100,8 +101,8 @@ public class RunBenchmarkToolServerTimes {
     long startTime = System.currentTimeMillis();
 
     ExecutorService executor = Executors.newFixedThreadPool(numClient);
-    List<Future<Long>> futureList = new ArrayList<>();
-    List<ReadWriteFileCallable> callables=new ArrayList<>();
+    List<Future<Long>> futureList = new ArrayList<Future<Long>>();
+    List<ReadWriteFileCallable> callables=new ArrayList<ReadWriteFileCallable>();
 
     for (int i = 0; i < numClient; i++) {
       ReadWriteFileCallable callable = new ReadWriteFileCallable(read, ec, coder);

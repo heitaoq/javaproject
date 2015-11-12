@@ -1,3 +1,4 @@
+package src;
 import java.util.concurrent.BlockingDeque;
 
 /**
@@ -6,7 +7,7 @@ import java.util.concurrent.BlockingDeque;
 public class UseBlockQueue {
   static final BlockQueue blockQueue = new BlockQueue(10);
 
-  public static void useBlockQueue() throws InterruptedException{
+  public static void useBlockQueue() throws InterruptedException {
 
     Thread thread1 = new Thread(new Runnable() {
       @Override
