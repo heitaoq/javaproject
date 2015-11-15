@@ -34,11 +34,13 @@ public class HashMap_Hashtable {
 		 * HashMap 的实例有两个参数影响其性能：初始容量 和加载因子。容量 是哈希表中桶的数量，初
 		 * 始容量只是哈希表在创建时的容量。加载因子 是哈希表在其容量自动增加之前可以达到多满的一
 		 * 种尺度。当哈希表中的条目数超出了加载因子与当前容量的乘积时，则要对该哈希表进行 rehash
-		 * 操作（即重建内部数据结构），从而哈希表将具有大约两倍的桶数。
+		 * 操作（即重建内部数据结构），从而哈希表将具有大约两倍的桶数。不进行rehash也是可以的，
+		 * 只是这样做的话会加大对象的碰撞记录
 		 *
 		 * 通常，默认加载因子 (.75) 在时间和空间成本上寻求一种折衷。加载因子过高虽然减少了空间开销，
 		 * 但同时也增加了查询成本
-		 * 在设置初始容量时应该考虑到映射中所需的条目数及其加载因子，以便最大限度地减少 rehash 操作次数。
+		 *
+         * 在设置初始容量时应该考虑到映射中所需的条目数及其加载因子，以便最大限度地减少 rehash 操作次数。
 		 * 如果初始容量大于最大条目数除以加载因子，则不会发生 rehash 操作。
 		 *
 		 * 如果很多映射关系要存储在 HashMap实例中，则相对于按需执行自动的 rehash 操作以增大表的容量来说，
@@ -48,14 +50,6 @@ public class HashMap_Hashtable {
 		 * static final float DEFAULT_LOAD_FACTOR = 0.75f;
 		 */
 		HashMap<String,Integer> hashMap = new HashMap<String,Integer>(128,0.8f);
-		hashMap.put("zhang", 123);
-		int a = hashMap.put("zhang", 456);
-		System.out.println(a);
-//		System.out.println(hashMap.get("zhang"));
-//		Map<String, Integer> m = Collections.synchronizedMap(new HashMap<String,Integer>());
-//		ConcurrentHashMap<String, Integer> chm = new ConcurrentHashMap<String, Integer>();
-
-//		Hashtable<String,Integer> hashtable = new Hashtable<String,Integer>();
-//		hashtable.put("123", null);
+		hashMap.put("zhang", 1234);
 	}
 }

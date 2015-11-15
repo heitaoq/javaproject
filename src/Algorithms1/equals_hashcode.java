@@ -1,6 +1,6 @@
 package src.Algorithms1;
 /**
- * 不管是对象数组还是基本类型的数组都扩展与Object类
+ * 不管是对象数组还是基本类型的数组都扩展于Object类
  * equals方法用于检测一个对象是否等于另外一个对象
  * hashCode是由对象导出的一个整型值
  * hashCode方法定义在Object类中,因此每个对象都有一个默认的散列码，其值为对象的存储地址
@@ -11,8 +11,8 @@ package src.Algorithms1;
 public class equals_hashcode {
 	public static void main(String[] args) {
 		//年龄是在不断变化的，所以还是同一个人
-		Student s1 = new Student("zhangminglei",24,123);
-		Student s2 = new Student("zhangminglei",25,123);
+		Student s1 = new Student("zhangminglei",24,1235678);
+		Student s2 = new Student("zhangminglei",25,1235678);
 		System.out.println(s1 == s2);// == 比较的是对象的地址或者基础类型的比较
 		/**
 		 * 2个相等的对象要求返回2个相等的散列码，如果用定义的Student.equals比较的是学生的姓名和学
@@ -57,7 +57,6 @@ class Student {
 	@Override
 	public String toString() {
 		return "姓名是:" +name +"年龄是:"+age;
-
 	}
 
 	/**

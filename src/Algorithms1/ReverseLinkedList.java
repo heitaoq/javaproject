@@ -2,10 +2,11 @@ package src.Algorithms1;
 
 import java.util.Stack;
 
-class QNode{
+class QNode {
 	int data;
 	QNode next;
-	public QNode(int data){
+
+	public QNode(int data) {
 		this.data = data;
 		next = null;
 	}
@@ -29,9 +30,9 @@ public class ReverseLinkedList {
 	 */
 	void reverseLinkedList(QNode node){
 		//递归的终止条件
-		if(node!=null){
+		if(node!=null) {
 			reverseLinkedList(node.next);
-			System.out.print(node.data+" ");
+			System.out.print(node.data + " ");
 		}
 	}
 
@@ -51,6 +52,5 @@ public class ReverseLinkedList {
 		ReverseLinkedList r = new ReverseLinkedList();
 		QNode node = r.createLinkedList();
 		r.reverseLinkedListByStack(node);
-
 	}
 }

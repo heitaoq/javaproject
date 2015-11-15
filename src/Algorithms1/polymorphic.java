@@ -13,11 +13,13 @@ public class polymorphic {
 		horse.run();
 	}
 }
-class Qizi{
+
+class Qizi {
 	public void run(){
 		System.out.println("棋子跑...");
 	}
 }
+
 class Car extends Qizi{
 
 	@Override

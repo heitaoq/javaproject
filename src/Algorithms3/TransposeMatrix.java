@@ -1,30 +1,29 @@
 package src.Algorithms3;
 
 public class TransposeMatrix {
-	
+
 	/**
-	 * �����ת��
+	 * 矩阵的转置
 	 * @param arr
 	 * @return
 	 */
-	public int[][] transMatrix(int[][] arr){
-		
+	public int[][] transMatrix(int[][] arr) {
 		int[][] newArr = new int[arr[0].length][arr.length];
-		for(int i = 0;i<arr.length;i++){
-			for(int j = 0;j<arr[0].length;j++){
+		for(int i = 0 ; i < arr.length ; i++) {
+			for(int j = 0;j < arr[0].length; j++) {
 				newArr[j][i] = arr[i][j];
 			}
 		}
 		return newArr;
 	}
-	
+
 	public static void main(String[] args) {
-		int[][] arr = 
-		{
-				{1,2,3,4},
-				{4,5,6,5},
-				{7,8,9,10}
-		};
+		int[][] arr =
+				{
+						{1,2,3,4},
+						{4,5,6,5},
+						{7,8,9,10}
+				};
 		TransposeMatrix t = new TransposeMatrix();
 		int[][] transMarr = t.transMatrix(arr);
 		for(int i = 0;i<transMarr.length;i++){

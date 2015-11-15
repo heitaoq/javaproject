@@ -1,4 +1,4 @@
-package Algorithms2;
+package src.Algorithms2;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,15 +11,13 @@ public class FindNumberMoreThanHalfOfArray {
 	 * @return
 	 */
 	public int majorityElement0(int[] num) {
-		if(num.length == 1) {
+		int result = 0;
+        if (num == null)
+            throw new NullPointerException();
+        if(num.length == 1) {
 			return num[0];
 		}
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-		int result = -1;
-		int sum = 1;
-		/**
-		 * 这个方法统计次数很不错,容易理解
-		 */
 		for(int i = 0; i < num.length; i++) {
 			if(map.containsKey(num[i])) {
 				map.put(num[i], map.get(num[i]) + 1);
@@ -27,13 +25,14 @@ public class FindNumberMoreThanHalfOfArray {
 				map.put(num[i], 1);
 			}
 		}
-		for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
-			if(entry.getValue() > sum) {
-				sum = entry.getValue();
-				result = entry.getKey();
-			}
-		}
-		return result;
+        // Traverse array and get every item's count.
+        for (int i = 0 ; i < num.length ; i++) {
+            int value = map.get(num[i]);
+            if (value > num.length / 2) {
+                result = num[i];
+            }
+        }
+        return result;
 	}
 	/**
 	 * 此方法妙哉啊,如果数组中出现的数字超过了数组中的一半的话,那么中间值一定是我们需要的数字
@@ -47,7 +46,7 @@ public class FindNumberMoreThanHalfOfArray {
 	}
 	public static void main(String[] args) {
 		FindNumberMoreThanHalfOfArray f = new FindNumberMoreThanHalfOfArray();
-		int[] arr = {1,2,2,2,2};
+		int[] arr = {1,2,2,4,4,4,4,4,4,4,2};
 		System.out.println(f.majorityElement(arr));
 		System.out.println(f.majorityElement0(arr));
 	}

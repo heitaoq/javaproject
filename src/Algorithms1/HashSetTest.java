@@ -16,10 +16,11 @@ class Employee{
 	@Override
 	public boolean equals(Object obj) {
 		Employee stu = (Employee)obj;
-		if(this.name == stu.name && this.age == stu.age){
+		if (this.name == stu.name && this.age == stu.age) {
 			return true;
-		}else
-		return false;
+		} else {
+			return false;
+		}
 	}
 }
 public class HashSetTest {

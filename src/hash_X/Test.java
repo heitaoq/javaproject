@@ -1,4 +1,4 @@
-package hash_X;
+package src.hash_X;
 
 /**
  * Created by mingleiz on 9/4/2015.
@@ -6,7 +6,7 @@ package hash_X;
 class Car {
 
   static {
-    int i = 9_0_0_0_1;
+    int i = 900;
   }
 
   Integer i = new Integer(1);
@@ -15,7 +15,7 @@ class Car {
 
 public class Test {
   public static void main(String[] args) {
-    int i = 9_9;
+    int i = 99;
     System.out.println(i);
 
   }

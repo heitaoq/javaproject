@@ -12,7 +12,7 @@ package src.Algorithms1;
  */
 public class StringBuffer_StringBuilder_String {
 
-	void testPerformance(){
+	void testPerformance() {
 		/**
 		 *
 		 5266 millis has elapsed when used String.
@@ -33,7 +33,7 @@ public class StringBuffer_StringBuilder_String {
 		String str = "1" + "2" + "3" + "4";
 
 		/**
-		 * 线程安全的，也就是说多个线程去访问这段代码，不会产生不一致性,StringBuffer里面许多方法都有
+		 * 线程安全的，也就是说多个线程去访问这段代码，不会产生不一致性, StringBuffer里面许多方法都有
 		 * synchronized关键字，也就是说多个进程同时访问这个方法时会同步的去访问
 		 * public synchronized StringBuffer append(?)
 		 */
@@ -42,7 +42,7 @@ public class StringBuffer_StringBuilder_String {
 		sb.append("2");
 		sb.append("3");
 		sb.append("4");
-		System.out.println(sb.toString());//把StringBuffer对象转换成String对象
+		System.out.println(sb.toString()); //把StringBuffer对象转换成String对象
 
 		/**
 		 * 线程不安全的，多个线程(进程)去访问这段代码可能会导致拼接错误，进而导致错误

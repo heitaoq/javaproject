@@ -10,17 +10,16 @@ public class BinarySearchTest {
 	 * @param a
 	 * @return
 	 */
-	boolean binarySearch(int[] arr,int a){
+	boolean binarySearch(int[] arr,int a) {
 		int i = 0;
 		int j = arr.length-1;
-		while(i<=j)
-		{
-			int middle = (i+j) >>> 1;//无符号右移
-			if(a == arr[middle]){
+		while(i <= j) { // Remember that equal sign is necessary.
+			int middle = (i+j) >> 1;//无符号右移
+			if(a == arr[middle]) {
 				return true;
-			}else if(a>arr[middle]){
+			} else if (a > arr[middle]) {
 				i = middle + 1;
-			}else{
+			} else {
 				j = middle - 1;
 			}
 		}
@@ -38,7 +37,7 @@ public class BinarySearchTest {
 		System.out.println(new BinarySearchTest().binarySearch(arr, 8));
 		System.out.println(new BinarySearchTest().binarySearch(arr, 9));
 		System.out.println(Arrays.binarySearch(arr, 3));
-		System.out.println((-8)>>1);
-		System.out.println((8+8)>>>1);
+//		System.out.println((-8)>>1);
+//		System.out.println((8+8)>>>1);
 	}
 }

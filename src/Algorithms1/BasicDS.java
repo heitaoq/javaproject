@@ -1,4 +1,4 @@
-package Algorithms1;
+package src.Algorithms1;
 /**
  * Java的基础数据类型以及包装类
  * @author Administrator
@@ -6,7 +6,7 @@ package Algorithms1;
  */
 public class BasicDS {
 	public static void main(String[] args) {
-		int i =1;//Integer
+		int i =1; //Integer
 		float f = (float)1.0; //Float float f = 1.0f;Java默认是Double，所以要强制转换，2种方式
 		double d = 1.0; //Double
 		boolean b = false; //Boolean
