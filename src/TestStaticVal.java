@@ -1,6 +1,6 @@
 package src;
 /**
- * Created by mingleiz on 8/20/2015.
+ * static val is shared
  */
 
 class Person {
@@ -15,6 +15,8 @@ public class TestStaticVal {
     Person jack = new Person();
     tom.setAge(10);
     jack.setAge(20);
+    tom.setAge(30);
     System.out.println(tom.age);
+    System.out.println(jack.age);
   }
 }

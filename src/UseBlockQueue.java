@@ -1,5 +1,4 @@
 package src;
-import java.util.concurrent.BlockingDeque;
 
 /**
  * http://stackoverflow.com/questions/2536692/a-simple-scenario-using-wait-and-notify-in-java?rq=1
@@ -7,8 +6,7 @@ import java.util.concurrent.BlockingDeque;
 public class UseBlockQueue {
   static final BlockQueue blockQueue = new BlockQueue(10);
 
-  public static void useBlockQueue() throws InterruptedException {
-
+  static void useBlockQueue() throws InterruptedException {
     Thread thread1 = new Thread(new Runnable() {
       @Override
       public void run() {
@@ -101,7 +99,7 @@ public class UseBlockQueue {
   }
 
   public static void main(String[] args) throws InterruptedException {
-    UseBlockQueue.useBlockQueue();
+    useBlockQueue();
 //    Thread.sleep(3000); It is not a good method. Use join() instead.
     BlockQueue.Output(blockQueue.queue);
   }

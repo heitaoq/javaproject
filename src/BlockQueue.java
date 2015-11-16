@@ -3,17 +3,22 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ *   Typical producer and consumer model.
+ *
+ * @param <T>
+ */
 public class BlockQueue<T> {
 
   public LinkedList<T> queue = new LinkedList<T>();
-  private int capacity;
+  private final int capacity;
 
   public BlockQueue(int capacity) {
     this.capacity = capacity;
   }
 
-  public static synchronized void Output(Queue queue1) throws InterruptedException{
-    Iterator<?> iterator = queue1.iterator();
+  public static synchronized void Output(Queue queue) throws InterruptedException{
+    Iterator<?> iterator = queue.iterator();
     while (iterator.hasNext()) {
       Object object = iterator.next();
       System.out.println("Remain elements = " + object);

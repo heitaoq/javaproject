@@ -22,7 +22,7 @@ class ReadWriteFileCallable implements Callable<Long> {
   static AtomicInteger it = new AtomicInteger();
   int id = it.getAndIncrement();
 
-  public ReadWriteFileCallable(boolean read, boolean isEc,String coder) {
+  public ReadWriteFileCallable(boolean read, boolean isEc, String coder) {
     fileName = UUID.randomUUID().toString();
     isRead = read;
     this.isEc = isEc;
