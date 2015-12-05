@@ -3,7 +3,7 @@ package src.scala
 /**
   * Created by root on 15-12-5.
   */
-object practice {
+object QuickSort {
 
   def sort(xs:Array[Int]):Array[Int] = {
     if (xs.length <= 1) xs
@@ -15,8 +15,7 @@ object practice {
 //        sort(xs filter( x => pivot < x )))
 
       // method two
-      Array.concat(sort(xs filter( pivot > )), xs filter( pivot == ), sort(xs filter( pivot < )))
-      
+      Array.concat(sort(xs filter( pivot > )), xs filter(  pivot == ), sort(xs filter( pivot < )))
     }
   }
 
