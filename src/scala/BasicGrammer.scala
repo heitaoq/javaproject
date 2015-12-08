@@ -20,7 +20,8 @@ object BasicGrammer {
     if (a > b) 0 else f(a) + sum(f, a + 1, b)
   }
 
-  def sumPowersOfTwo(a:Int, b:Int):Int = sum(power, a, b)
+  def sumPowersOfTwo(a:Int, b:Int):In
+  t = sum(power, a, b)
   def sumInts(a:Int, b:Int):Int = sum(id, a, b)
   def sumsquare(a:Int, b:Int):Int = sum(square, a, b)
 
