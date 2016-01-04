@@ -51,7 +51,7 @@ class Student {
 	}
 }
 /**
- * Comparator是比较用的
+ * Comparator�ǱȽ��õ�
  * @author Administrator
  *
  */

@@ -19,7 +19,7 @@ public class ReverseLinkedList {
 	}
 
   /**
-   * çœ‹å›¾ç†è§£å•é“¾è¡¨åè½¬
+   * ¿´Í¼Àí½âµ¥Á´±í·´×ª
    * http://www.2cto.com/kf/201110/106607.html
    * @param pHead
    * @return

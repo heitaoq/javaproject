@@ -1,4 +1,4 @@
-package DataStructure;
+package src.DataStructure;
 
 /**
  * Created by mingleiz on 9/16/2015.

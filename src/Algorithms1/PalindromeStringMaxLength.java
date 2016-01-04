@@ -1,25 +1,25 @@
 package src.Algorithms1;
 
 /**
- *譬如给你一个字符串，计算这个字符串里面的对称字符串的最大长度
- 譬如google， 对称字符串的最大长度是4
- 主要看你能不能把握在哪里需要递归调用当前的方法
- 以及怎么跳出递归
+ *Ʃ�����һ���ַ�������������ַ�������ĶԳ��ַ�������󳤶�
+ Ʃ��google�� �Գ��ַ�������󳤶���4
+ ��Ҫ�����ܲ��ܰ�����������Ҫ�ݹ���õ�ǰ�ķ���
+ �Լ���ô�����ݹ�
  * @author Administrator
  *
  */
 public class PalindromeStringMaxLength {
 	/**
-	 * 过程：g: go goo goog googl google 然后去掉g，o:oo oog oogl oogle 然后去掉o o:og ogl ogle
-	 * 难点在于：第一个是：在什么地方递归调用（反复调用哪一段代码），第二是递归出口
+	 * ���̣�g: go goo goog googl google Ȼ��ȥ��g��o:oo oog oogl oogle Ȼ��ȥ��o o:og ogl ogle
+	 * �ѵ����ڣ���һ���ǣ���ʲô�ط��ݹ���ã�����������һ�δ��룩���ڶ��ǵݹ����
 	 *
-	 * 去掉g 字符串还剩 oogle 去掉o 字符串还剩ogle 去掉o 还剩gle 去掉 g 还剩le 这时候判断完后即可跳出递归
+	 * ȥ��g �ַ�����ʣ oogle ȥ��o �ַ�����ʣogle ȥ��o ��ʣgle ȥ�� g ��ʣle ��ʱ���ж���󼴿������ݹ�
 	 * @param str
 	 * @return
 	 */
 	public String reverse(String str) {
 		char[] ch = str.toCharArray();
-		//这个判断条件 i<=j 还是 i<j 都是可以的
+		//����ж����� i<=j ���� i<j ���ǿ��Ե�
 		for(int i = 0,j = ch.length-1;i<=j;i++,j--){
 			char c = ch[i];
 			ch[i] = ch[j];
@@ -28,8 +28,8 @@ public class PalindromeStringMaxLength {
 		return new String(ch);
 	}
 	/**
-	 * 字符串toCharArray 然后定义一个临时变量 temp foreach 那个字符数组，然后temp+每次循环的字符，拿这个临时字符串去判断是否为对称
-	 * 因为每次递归调用都减去一个字符，总有减完的时候，也就是递归的出口
+	 * �ַ���toCharArray Ȼ����һ����ʱ���� temp foreach �Ǹ��ַ����飬Ȼ��temp+ÿ��ѭ�����ַ����������ʱ�ַ���ȥ�ж��Ƿ�Ϊ�Գ�
+	 * ��Ϊÿ�εݹ���ö���ȥһ���ַ������м����ʱ��Ҳ���ǵݹ�ĳ���
 	 * @param str
 	 * @return
 	 */
@@ -41,7 +41,7 @@ public class PalindromeStringMaxLength {
 		if(str.length()>0)
 		{
 			char[] ch = str.toCharArray();
-			String temp = ""; //注意,不能写成String temp = null
+			String temp = ""; //ע��,����д��String temp = null
 			for(int i = 0 ; i < ch.length ; i++) {
 				temp = temp + ch[i];
 				if(reverse(temp).equals(temp)) {

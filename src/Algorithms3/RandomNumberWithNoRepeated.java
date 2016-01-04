@@ -4,8 +4,8 @@ import java.util.HashSet;
 
 public class RandomNumberWithNoRepeated {
 	/**
-	 * äº§ç”Ÿ1 ~ 10ä¸ªæ²¡æœ‰é‡å¤çš„10ä¸ªéšæœºæ•°
-	 * åˆ©ç”¨HashSetçš„å”¯ä¸€æ€§æ¥äº§ç”Ÿ,æˆ–è€…ä½¿ç”¨HashMapé‡Œçš„keyçš„å”¯ä¸€æ€§æ¥äº§ç”Ÿä¹Ÿå¯ä»¥
+	 * ²úÉú1 ~ 10¸öÃ»ÓĞÖØ¸´µÄ10¸öËæ»úÊı
+	 * ÀûÓÃHashSetµÄÎ¨Ò»ĞÔÀ´²úÉú,»òÕßÊ¹ÓÃHashMapÀïµÄkeyµÄÎ¨Ò»ĞÔÀ´²úÉúÒ²¿ÉÒÔ
    *
 	 * @return
 	 */

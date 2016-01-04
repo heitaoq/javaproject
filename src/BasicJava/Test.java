@@ -1,4 +1,4 @@
-package BasicJava;
+package src.BasicJava;
 
 import java.io.UnsupportedEncodingException;
 

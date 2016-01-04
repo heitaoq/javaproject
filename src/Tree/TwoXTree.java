@@ -54,7 +54,7 @@ public class TwoXTree{
 	}
 
 	/**
-	 * ååºéå†
+	 * ºóĞò±éÀú
 	 * @param root
 	 */
 	public void postorderTraversal(TreeNode root) {
@@ -65,7 +65,7 @@ public class TwoXTree{
 		}
 	}
 	/**
-	 * ä¸­åºéå†
+	 * ÖĞĞò±éÀú
 	 * @param root
 	 */
 	public void inOrderTraversal(TreeNode root){
@@ -77,7 +77,7 @@ public class TwoXTree{
 	}
 
 	/**
-	 * å…ˆåºéå†
+	 * ÏÈĞò±éÀú
 	 * @param root
 	 */
 	public void preOrderTraversal(TreeNode root){
@@ -89,7 +89,7 @@ public class TwoXTree{
 	}
 
 	/**
-	 * é€’å½’çš„æ±‚è§£2Xæ ‘çš„æ·±åº¦,æ‰¾åˆ°é€’å½’å‡ºå£
+	 * µİ¹éµÄÇó½â2XÊ÷µÄÉî¶È,ÕÒµ½µİ¹é³ö¿Ú
 	 */
 	public int depth(TreeNode root) {
 		if(root!=null) {
@@ -101,16 +101,16 @@ public class TwoXTree{
 	}
 
 	/**
-	 * åˆ¤æ–­æ­¤2Xæ ‘æ˜¯å¦æ˜¯å¹³è¡¡æ ‘ {ä»»æ„ç»“ç‚¹çš„å·¦å³å­æ ‘çš„æ·±å…¥ç›¸å·®ä¸è¶…è¿‡1}
+	 * ÅĞ¶Ï´Ë2XÊ÷ÊÇ·ñÊÇÆ½ºâÊ÷ {ÈÎÒâ½áµãµÄ×óÓÒ×ÓÊ÷µÄÉîÈëÏà²î²»³¬¹ı1}
    *
-   * ä½ éœ€è¦å¯¹æ¯ä¸ªèŠ‚ç‚¹éƒ½åˆ¤æ–­ä¸€æ¬¡ï¼Œä¸€ç›´åˆ°æ²¡æœ‰èŠ‚ç‚¹ä¸ºæ­¢ï¼Œ é€’å½’çš„å»åˆ¤æ–­æ¯ä¸ªèŠ‚ç‚¹
+   * ÄãĞèÒª¶ÔÃ¿¸ö½Úµã¶¼ÅĞ¶ÏÒ»´Î£¬Ò»Ö±µ½Ã»ÓĞ½ÚµãÎªÖ¹£¬ µİ¹éµÄÈ¥ÅĞ¶ÏÃ¿¸ö½Úµã
    *
-	 * åœ¨ä¸Šé¢æ±‚è¿‡å…³äºæ ‘çš„æ·±å…¥çš„é—®é¢˜ä¹‹åï¼Œæœ‰äº†æ€è·¯å¦‚ä¸‹ï¼š
-	 * åœ¨éå†åˆ°2Xæ ‘æ¯ä¸ªç»“ç‚¹çš„æ—¶å€™,è°ƒç”¨depthå‡½æ•°çœ‹å…¶å·¦å³çš„ç»“ç‚¹çš„æ·±å…¥
-	 * å¹¶æ¯”è¾ƒå³å¯
-	 * å¼Šç«¯ï¼ï¼ï¼é‡å¤éå†ç»“ç‚¹
+	 * ÔÚÉÏÃæÇó¹ı¹ØÓÚÊ÷µÄÉîÈëµÄÎÊÌâÖ®ºó£¬ÓĞÁËË¼Â·ÈçÏÂ£º
+	 * ÔÚ±éÀúµ½2XÊ÷Ã¿¸ö½áµãµÄÊ±ºò,µ÷ÓÃdepthº¯Êı¿´Æä×óÓÒµÄ½áµãµÄÉîÈë
+	 * ²¢±È½Ï¼´¿É
+	 * ±×¶Ë£¡£¡£¡ÖØ¸´±éÀú½áµã
    *
-   * é€’å½’çš„åˆ¤æ–­å·¦å³å­æ ‘æ˜¯ä¸æ˜¯å¹³è¡¡æ ‘
+   * µİ¹éµÄÅĞ¶Ï×óÓÒ×ÓÊ÷ÊÇ²»ÊÇÆ½ºâÊ÷
 	 */
 	public boolean isBalanceTree(TreeNode root){
 		if(root==null)
@@ -123,7 +123,7 @@ public class TwoXTree{
 	}
 
 	/**
-	 * 2Xæ ‘éé€’å½’ç®—æ³•
+	 * 2XÊ÷·Çµİ¹éËã·¨
 	 * @param root
 	 * @return
 	 */
@@ -149,14 +149,14 @@ public class TwoXTree{
 	 *     2     3
 	 *   4   5 6   7
 	 *
-	 *   å±‚æ¬¡éå†
-	 *   è¾“å‡ºä¸º 1 2 3 4 5 6 7
+	 *   ²ã´Î±éÀú
+	 *   Êä³öÎª 1 2 3 4 5 6 7
 	 */
 	public ArrayList<Integer> levelOrder(TreeNode root) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		Queue<TreeNode> queue = new LinkedList<TreeNode>();
 		queue.add(root);
-		while(!queue.isEmpty()) { // é€’å½’çš„å‡ºå£å°±æ˜¯é˜Ÿåˆ—ä¸ä¸ºç©º
+		while(!queue.isEmpty()) { // µİ¹éµÄ³ö¿Ú¾ÍÊÇ¶ÓÁĞ²»Îª¿Õ
 			list.add(queue.peek().val);
 			root = queue.remove();
 			if(root.left!=null || root.right!=null) {

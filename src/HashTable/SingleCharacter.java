@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 class SolveSingleCharacter {
 	/**
-	 * �����
+	 * ?????
 	 * @param str
 	 * @return
 	 */
@@ -25,7 +25,7 @@ class SolveSingleCharacter {
 	}
 	
 	/**
-	 * HashMap���
+	 * HashMap???
 	 * @param str
 	 */
 	public void singleChar(String str) {
@@ -37,7 +37,7 @@ class SolveSingleCharacter {
 			else
 				map.put(ch[i], 1);
 		}
-		//��ס,����map��size
+		//???,????map??size
 		// for(int i = 0 ;i<map.size();i++){
 		// int a = map.get(ch[i]);
 		// if(a==1)

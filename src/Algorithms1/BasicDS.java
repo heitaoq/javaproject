@@ -1,13 +1,13 @@
 package src.Algorithms1;
 /**
- * Javaçš„åŸºç¡€æ•°æ®ç±»å‹ä»¥åŠåŒ…è£…ç±»
+ * JavaµÄ»ù´¡Êı¾İÀàĞÍÒÔ¼°°ü×°Àà
  * @author Administrator
  *
  */
 public class BasicDS {
 	public static void main(String[] args) {
 		int i =1; //Integer
-		float f = (float)1.0; //Float float f = 1.0f;Javaé»˜è®¤æ˜¯Doubleï¼Œæ‰€ä»¥è¦å¼ºåˆ¶è½¬æ¢ï¼Œ2ç§æ–¹å¼
+		float f = (float)1.0; //Float float f = 1.0f;JavaÄ¬ÈÏÊÇDouble£¬ËùÒÔÒªÇ¿ÖÆ×ª»»£¬2ÖÖ·½Ê½
 		double d = 1.0; //Double
 		boolean b = false; //Boolean
 		char c = 'a'; //Character
@@ -15,10 +15,10 @@ public class BasicDS {
 		byte b_ = (byte)1; //Byte
 		short s = (short)1; // Short
 
-		Integer it = Integer.valueOf(i);//ä»åŸºç¡€ç±»å‹åˆ°åŒ…è£…ç±»  è£…ç®±
-		i = it.intValue();//ä»åŒ…è£…ç±»åˆ°åŸºç¡€ç±»	æ‹†ç®±
+		Integer it = Integer.valueOf(i);//´Ó»ù´¡ÀàĞÍµ½°ü×°Àà  ×°Ïä
+		i = it.intValue();//´Ó°ü×°Ààµ½»ù´¡Àà	²ğÏä
 
-		//è‡ªåŠ¨è£…ç®±å’Œæ’ç®± jdk 1.5 (JDK 5.0)ä»¥åæ‰æœ‰çš„
+		//×Ô¶¯×°ÏäºÍ²åÏä jdk 1.5 (JDK 5.0)ÒÔºó²ÅÓĞµÄ
 		Integer integer = 1;
 		i = integer;
 	}

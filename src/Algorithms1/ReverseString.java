@@ -4,11 +4,11 @@ import java.util.Stack;
 
 /**
  *
- *  1ï¼šé¦–å°¾äº¤æ¢
- *	2ï¼šé€’å½’è¾“å‡º
- *	3ï¼šé€šè¿‡æ ˆ
- *	4ï¼šé€šè¿‡å †ï¼Œå¤§æ ¹å †å¯ä»¥å®ç°å­—ç¬¦ä¸²é€†åºï¼ˆä¼˜å…ˆçº§ï¼‰
- *	5ï¼šæä¾›å¥½çš„APIï¼Œæ¯”å¦‚Javaé‡Œé¢çš„StringBuilderæˆ–è€…StringBuffer
+ *  1£ºÊ×Î²½»»»
+ *	2£ºµİ¹éÊä³ö
+ *	3£ºÍ¨¹ıÕ»
+ *	4£ºÍ¨¹ı¶Ñ£¬´ó¸ù¶Ñ¿ÉÒÔÊµÏÖ×Ö·û´®ÄæĞò£¨ÓÅÏÈ¼¶£©
+ *	5£ºÌá¹©ºÃµÄAPI£¬±ÈÈçJavaÀïÃæµÄStringBuilder»òÕßStringBuffer
  *
  * @author Administrator
  *
@@ -16,7 +16,7 @@ import java.util.Stack;
 public class ReverseString {
 
 	/**
-	 * å…ˆæŠŠstrå­˜å‚¨åˆ°ä¸€ä¸ªå­—ç¬¦æ•°ç»„é‡Œé¢ï¼Œç„¶åæŠŠæ­¤å­—ç¬¦æ•°ç»„é€†åº,é€†åºçš„æ€æƒ³é‡‡å–çš„æ˜¯ã€Šç¨‹åºè®¾è®¡ä¸è®¡ç®—æœºç³»ç»Ÿã€‹é‡Œé¢çš„ç¿»è½¬ä¸€ä¸ªæ•´å‹æ•°ç»„
+	 * ÏÈ°Ñstr´æ´¢µ½Ò»¸ö×Ö·ûÊı×éÀïÃæ£¬È»ºó°Ñ´Ë×Ö·ûÊı×éÄæĞò,ÄæĞòµÄË¼Ïë²ÉÈ¡µÄÊÇ¡¶³ÌĞòÉè¼ÆÓë¼ÆËã»úÏµÍ³¡·ÀïÃæµÄ·­×ªÒ»¸öÕûĞÍÊı×é
 	 *
 	 * @param str
 	 * @return
@@ -26,7 +26,7 @@ public class ReverseString {
 			throw new NullPointerException();
 		char[] ch = new char[str.length()];
 		ch = str.toCharArray();
-		// è¿™ä¸ªåˆ¤æ–­æ¡ä»¶ i<=j è¿˜æ˜¯ i<j éƒ½æ˜¯å¯ä»¥çš„
+		// Õâ¸öÅĞ¶ÏÌõ¼ş i<=j »¹ÊÇ i<j ¶¼ÊÇ¿ÉÒÔµÄ
 		for (int i = 0, j = ch.length - 1; i <= j; i++, j--) {
 			char c = ch[i];
 			ch[i] = ch[j];
@@ -36,7 +36,7 @@ public class ReverseString {
 		return newstr;
 	}
 	/**
-	 * é€šè¿‡æ ˆæ‰“å°å­—ç¬¦ä¸²
+	 * Í¨¹ıÕ»´òÓ¡×Ö·û´®
 	 * @param str
 	 * @return
 	 */
@@ -51,13 +51,13 @@ public class ReverseString {
 		return newStr;
 	}
 	/**
-	 * é€’å½’çš„è¾“å‡ºå­—ç¬¦ä¸²
+	 * µİ¹éµÄÊä³ö×Ö·û´®
 	 * @param str
 	 */
 	public String reverseStringByRecur(String str) {
 		if (str == null)
 			throw new NullPointerException();
-		//é€’å½’å‡ºå£
+		//µİ¹é³ö¿Ú
 		if (str.length() != 0) {
 			char[] ch = str.toCharArray();
 			char[] newCh = new char[ch.length - 1];
@@ -75,7 +75,7 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		/**
-		 * å½“ç„¶åœ¨æ„é€ å­—ç¬¦ä¸²çš„æ—¶å€™ç”¨StringBuilder
+		 * µ±È»ÔÚ¹¹Ôì×Ö·û´®µÄÊ±ºòÓÃStringBuilder
 		 */
 		ReverseString rs = new ReverseString();
 		String str1 = "123";

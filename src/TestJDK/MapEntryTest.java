@@ -15,13 +15,13 @@ public class MapEntryTest {
 		map.put("ming", 2);
 		map.put("lei", 3);
 
-		//entrySetæ–¹æ³•è¿”å›çš„æ˜¯ ï¼ša set view of the mappings contained in this map
+		//entrySet·½·¨·µ»ØµÄÊÇ £ºa set view of the mappings contained in this map
 		Set<Map.Entry<String, Integer>> setOfMappings = map.entrySet();
 		Iterator<?> iterator = setOfMappings.iterator();
 		while (iterator.hasNext()){
 			Entry<?,?> entry = (Entry<?, ?>) iterator.next();
 			if(entry.getKey() == "zhang")
-				System.out.println("å¼ åœ¨ç­çº§é‡Œæ’åæ˜¯ ï¼š" + entry.getValue());
+				System.out.println("ÕÅÔÚ°à¼¶ÀïÅÅÃûÊÇ £º" + entry.getValue());
 		}
 	}
 }

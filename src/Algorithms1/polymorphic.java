@@ -1,14 +1,14 @@
 package src.Algorithms1;
 /**
- * ä¸ºä»€ä¹ˆå«å¤šæ€ï¼Ÿ
- * åšå‡ºæ¥çš„ä¸œè¥¿è¡¨ç°å‡ºæ¥çš„æ˜¯ä¸åŒçš„å½¢æ€
+ * ÎªÊ²Ã´½Ğ¶àÌ¬£¿
+ * ×ö³öÀ´µÄ¶«Î÷±íÏÖ³öÀ´µÄÊÇ²»Í¬µÄĞÎÌ¬
  * @author Administrator
  *
  */
 public class polymorphic {
 	public static void main(String[] args) {
-		Qizi car = new Car();//ç”¨æ£‹å­ç±»å»å¼•ç”¨è½¦
-		Qizi horse = new Horse();//ç”¨æ£‹å­ç±»å»å¼•ç”¨é©¬
+		Qizi car = new Car();//ÓÃÆå×ÓÀàÈ¥ÒıÓÃ³µ
+		Qizi horse = new Horse();//ÓÃÆå×ÓÀàÈ¥ÒıÓÃÂí
 		car.run();
 		horse.run();
 	}
@@ -16,7 +16,7 @@ public class polymorphic {
 
 class Qizi {
 	public void run(){
-		System.out.println("æ£‹å­è·‘...");
+		System.out.println("Æå×ÓÅÜ...");
 	}
 }
 
@@ -24,7 +24,7 @@ class Car extends Qizi{
 
 	@Override
 	public void run() {
-		System.out.println("è½¦è·‘...ä»»æ„è·‘");
+		System.out.println("³µÅÜ...ÈÎÒâÅÜ");
 	}
 
 }
@@ -32,7 +32,7 @@ class Horse extends Qizi{
 
 	@Override
 	public void run() {
-		System.out.println("é©¬è·‘...æ—¥å­—è·‘");
+		System.out.println("ÂíÅÜ...ÈÕ×ÖÅÜ");
 	}
 }
 

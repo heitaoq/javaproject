@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.Iterator;
 /**
- * å¦‚æœä½ æƒ³ä¸€ä¸ªç±»ä¸è¢«åˆ«çš„ç±»ç»§æ‰¿,é‚£ä¹ˆå°±é‡‡ç”¨finalä¿®é¥°
+ * Èç¹ûÄãÏëÒ»¸öÀà²»±»±ğµÄÀà¼Ì³Ğ,ÄÇÃ´¾Í²ÉÓÃfinalĞŞÊÎ
  *
  * @author Administrator
  *
@@ -39,7 +39,7 @@ final class Car {
 		}
 	}
 	/**
-	 * å»é™¤å­—ç¬¦æ•°ç»„ä¸¤è¾¹çš„ç©ºæ ¼
+	 * È¥³ı×Ö·ûÊı×éÁ½±ßµÄ¿Õ¸ñ
 	 *
 	 * @param ch
 	 * @return

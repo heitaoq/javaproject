@@ -9,12 +9,12 @@ import java.util.RandomAccess;
 public class RandomAccessTest {
 	public static void travel(List list) {
 		if (list instanceof RandomAccess) {
-			System.out.println("å®ç°äº†RandomAccessæ¥å£ï¼Œä¸ä½¿ç”¨è¿­ä»£å™¨ï¼");
+			System.out.println("ÊµÏÖÁËRandomAccess½Ó¿Ú£¬²»Ê¹ÓÃµü´úÆ÷£¡");
 			for (int i = 0; i < list.size(); i++) {
 				System.out.println(list.get(i));
 			}
 		} else {
-			System.out.println("æ²¡å®ç°RandomAccessæ¥å£ï¼Œä½¿ç”¨è¿­ä»£å™¨ï¼");
+			System.out.println("Ã»ÊµÏÖRandomAccess½Ó¿Ú£¬Ê¹ÓÃµü´úÆ÷£¡");
 			for (Iterator iter = list.iterator(); iter.hasNext();) {
 				System.out.println((String) iter.next());
 			}
@@ -22,7 +22,7 @@ public class RandomAccessTest {
 	}
 
 	public static void main(String[] args) {
-		//ArrayListä¸å»ºè®®ä½¿ç”¨è¿­ä»£å™¨ï¼Œ
+		//ArrayList²»½¨ÒéÊ¹ÓÃµü´úÆ÷£¬
 		List list = new ArrayList();
 		list.add("a");
 		list.add("b");

@@ -23,18 +23,18 @@ class SolveSingleNumber{
 	        return x;
 	    }
 	
-	 //��ʱ�ķ���
+	 //????????
 	 public int singleNumber_1(int[] A) 
 	 {
 	      HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
-	      //���Ȱ����е�Ԫ�ش洢��HashMap����ȥ,ע��:�������ظ�
+	      //????????��????��??HashMap?????,???:?????????
 	      int i = 0;
 	      for(;i<A.length;i++)
 	      {
 	          map.put(i,A[i]);
 	      }
 	      i = 0;
-	      //�����½�һ��HashMap,Ȼ�������һ��HashMap
+	      //??????????HashMap,???????????HashMap
 	      HashMap<Integer,Integer> map_1 = new HashMap<Integer,Integer>();
 	      for(;i<A.length;i++)
 	      {
@@ -47,7 +47,7 @@ class SolveSingleNumber{
 	              }
 	              else
 	              {
-	                  map_1.remove(a);//����ٴ�������ͬ�����֣���ô�Ͱ�֮ǰ��map��������ָ�remove��
+	                  map_1.remove(a);//??????????????????????????????map??????????remove??
 	              }
 	          }
 	      }
@@ -57,7 +57,7 @@ class SolveSingleNumber{
 	      return c;  
 	    }
 	 
-	 //û�г�ʱ
+	 //??��??
 	 public int singleNumber_2(int[] A) 
 	    {
 	      HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
@@ -69,7 +69,7 @@ class SolveSingleNumber{
 	         }
 	         else
 	         {
-	            map.remove(A[i]);//��������иĳ� map.remove(A[i]);Ҳ�������е�,��һ����Ҫһ��int a = �����ܺ����ķ���ֵ
+	            map.remove(A[i]);//????????��?? map.remove(A[i]);????????��?,???????????int a = ???????????????
 	         }
 	      }
 	      Set<Integer> s = map.keySet();

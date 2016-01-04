@@ -2,8 +2,8 @@ package src.Algorithms1;
 
 public class StringToInt {
 	/**
-	 * 标治位,定义一个静态的全局变量判断是否遇到了非法输入
-	 * 如果v为0，则为合法输入，v为$，则为非法输入
+	 * ����λ,����һ����̬��ȫ�ֱ����ж��Ƿ������˷Ƿ�����
+	 * ���vΪ0����Ϊ�Ϸ����룬vΪ$����Ϊ�Ƿ�����
 	 */
 	static char v = '0';
 	public int stringToInt(String str){

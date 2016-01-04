@@ -3,7 +3,7 @@ package src.Algorithms1;
 public class EffectiveMaxMinInArray {
 
 	/**
-	 * åˆ†æ²»ç®—æ³•,åœ¨Nä¸ªæ•°ä¸­æ±‚å‡ºæœ€å¤§å€¼Maxå’Œæœ€å°å€¼Min,æˆ‘ä»¬åªéœ€è¦æ±‚å‡ºN/2ä¸ªæ•°çš„Minå’ŒMax,ç„¶åå–è¾ƒå°çš„Min,è¾ƒå¤§çš„Maxå³å¯
+	 * ·ÖÖÎËã·¨,ÔÚN¸öÊıÖĞÇó³ö×î´óÖµMaxºÍ×îĞ¡ÖµMin,ÎÒÃÇÖ»ĞèÒªÇó³öN/2¸öÊıµÄMinºÍMax,È»ºóÈ¡½ÏĞ¡µÄMin,½Ï´óµÄMax¼´¿É
 	 * @param arr
 	 * @param a
 	 * @param b
@@ -12,7 +12,7 @@ public class EffectiveMaxMinInArray {
 	int[] search(int[] arr,int a,int b){
 		int[] max_min = new int[2];
 		/**
-		 * é€’å½’çš„å‡ºå£ æ¯”å¦‚ 1 & 2 åˆ™ max = 2 min = 1
+		 * µİ¹éµÄ³ö¿Ú ±ÈÈç 1 & 2 Ôò max = 2 min = 1
 		 */
 		if(b-a <= 1)
 		{
@@ -29,8 +29,8 @@ public class EffectiveMaxMinInArray {
 		int[] a1 = new int[2];
 		int[] a2 = new int[2];
 		/**
-		 * å‡è®¾ a = 1,b = 4
-		 * åˆ™    a1 = search(arr,1,2)
+		 * ¼ÙÉè a = 1,b = 4
+		 * Ôò    a1 = search(arr,1,2)
 		 * 	   a2 = search(arr,3,4)
 		 */
 		a1 = search(arr, a, a + (b-a)/2);
@@ -41,7 +41,7 @@ public class EffectiveMaxMinInArray {
 		int a2_min = a2[1];
 		int[] a3 = new int[2];
 		/**
-		 * è¾ƒå¤§çš„æ•°å’Œè¾ƒå¤§çš„æ•°æ¯”è¾ƒ,è¾ƒå°çš„æ•°å’Œè¾ƒå°çš„æ•°æ¯”è¾ƒ  2æ¬¡å°±å¯ä»¥äº†
+		 * ½Ï´óµÄÊıºÍ½Ï´óµÄÊı±È½Ï,½ÏĞ¡µÄÊıºÍ½ÏĞ¡µÄÊı±È½Ï  2´Î¾Í¿ÉÒÔÁË
 		 */
 		if(a1_max > a2_max){
 			a3[0] = a1_max;
@@ -56,7 +56,7 @@ public class EffectiveMaxMinInArray {
 		return a3;
 	}
 	/**
-	 * ä¸è¦é€‰å¤æ‚çš„æ•°æ®æ¥åšç®—æ³•åˆ†æ,é€‰ç®€å•çš„å°±å¥½
+	 * ²»ÒªÑ¡¸´ÔÓµÄÊı¾İÀ´×öËã·¨·ÖÎö,Ñ¡¼òµ¥µÄ¾ÍºÃ
 	 * 			4 3 2 1
 	 * 		4 3			2 1
 	 * 		max = 4		max = 2

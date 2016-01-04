@@ -10,7 +10,7 @@ public class ListTest {
 	public static void main(String[] args) {
 		List<Integer> arrlist = new ArrayList<Integer>();
 		List<Integer> linlist = new LinkedList<Integer>();
-		//Vectorçº¿ç¨‹åŒæ­¥çš„
+		//VectorÏß³ÌÍ¬²½µÄ
 		Vector v = new Vector(4);
 		v.add("Test0");
 		v.add("Test1");

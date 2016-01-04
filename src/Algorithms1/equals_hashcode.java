@@ -1,38 +1,38 @@
 package src.Algorithms1;
 /**
- * ä¸ç®¡æ˜¯å¯¹è±¡æ•°ç»„è¿˜æ˜¯åŸºæœ¬ç±»å‹çš„æ•°ç»„éƒ½æ‰©å±•äºObjectç±»
- * equalsæ–¹æ³•ç”¨äºæ£€æµ‹ä¸€ä¸ªå¯¹è±¡æ˜¯å¦ç­‰äºå¦å¤–ä¸€ä¸ªå¯¹è±¡
- * hashCodeæ˜¯ç”±å¯¹è±¡å¯¼å‡ºçš„ä¸€ä¸ªæ•´å‹å€¼
- * hashCodeæ–¹æ³•å®šä¹‰åœ¨Objectç±»ä¸­,å› æ­¤æ¯ä¸ªå¯¹è±¡éƒ½æœ‰ä¸€ä¸ªé»˜è®¤çš„æ•£åˆ—ç ï¼Œå…¶å€¼ä¸ºå¯¹è±¡çš„å­˜å‚¨åœ°å€
+ * ²»¹ÜÊÇ¶ÔÏóÊı×é»¹ÊÇ»ù±¾ÀàĞÍµÄÊı×é¶¼À©Õ¹ÓÚObjectÀà
+ * equals·½·¨ÓÃÓÚ¼ì²âÒ»¸ö¶ÔÏóÊÇ·ñµÈÓÚÁíÍâÒ»¸ö¶ÔÏó
+ * hashCodeÊÇÓÉ¶ÔÏóµ¼³öµÄÒ»¸öÕûĞÍÖµ
+ * hashCode·½·¨¶¨ÒåÔÚObjectÀàÖĞ,Òò´ËÃ¿¸ö¶ÔÏó¶¼ÓĞÒ»¸öÄ¬ÈÏµÄÉ¢ÁĞÂë£¬ÆäÖµÎª¶ÔÏóµÄ´æ´¢µØÖ·
  *
  * @author Administrator
  *
  */
 public class equals_hashcode {
 	public static void main(String[] args) {
-		//å¹´é¾„æ˜¯åœ¨ä¸æ–­å˜åŒ–çš„ï¼Œæ‰€ä»¥è¿˜æ˜¯åŒä¸€ä¸ªäºº
+		//ÄêÁäÊÇÔÚ²»¶Ï±ä»¯µÄ£¬ËùÒÔ»¹ÊÇÍ¬Ò»¸öÈË
 		Student s1 = new Student("zhangminglei",24,1235678);
 		Student s2 = new Student("zhangminglei",25,1235678);
-		System.out.println(s1 == s2);// == æ¯”è¾ƒçš„æ˜¯å¯¹è±¡çš„åœ°å€æˆ–è€…åŸºç¡€ç±»å‹çš„æ¯”è¾ƒ
+		System.out.println(s1 == s2);// == ±È½ÏµÄÊÇ¶ÔÏóµÄµØÖ·»òÕß»ù´¡ÀàĞÍµÄ±È½Ï
 		/**
-		 * 2ä¸ªç›¸ç­‰çš„å¯¹è±¡è¦æ±‚è¿”å›2ä¸ªç›¸ç­‰çš„æ•£åˆ—ç ï¼Œå¦‚æœç”¨å®šä¹‰çš„Student.equalsæ¯”è¾ƒçš„æ˜¯å­¦ç”Ÿçš„å§“åå’Œå­¦
-		 * å·ï¼Œé‚£ä¹ˆhashCodeå°±åªéœ€è¦æ•£åˆ—è¿™2ä¸ªå­—æ®µå°±å¯ä»¥ï¼Œageå­—æ®µä¸éœ€è¦æ•£åˆ—
-		 * å¦‚æœx.equals(y)è¿”å›true,é‚£ä¹ˆxçš„hashCodeå°±å¿…é¡»ä¸yçš„hashCodeç›¸ç­‰ï¼Œæ‰€ä»¥å¾—é‡å†™hashCode
+		 * 2¸öÏàµÈµÄ¶ÔÏóÒªÇó·µ»Ø2¸öÏàµÈµÄÉ¢ÁĞÂë£¬Èç¹ûÓÃ¶¨ÒåµÄStudent.equals±È½ÏµÄÊÇÑ§ÉúµÄĞÕÃûºÍÑ§
+		 * ºÅ£¬ÄÇÃ´hashCode¾ÍÖ»ĞèÒªÉ¢ÁĞÕâ2¸ö×Ö¶Î¾Í¿ÉÒÔ£¬age×Ö¶Î²»ĞèÒªÉ¢ÁĞ
+		 * Èç¹ûx.equals(y)·µ»Øtrue,ÄÇÃ´xµÄhashCode¾Í±ØĞëÓëyµÄhashCodeÏàµÈ£¬ËùÒÔµÃÖØĞ´hashCode
 		 */
 		System.out.println(s1.hashCode() +"\n"+s2.hashCode());
 		System.out.println(s1.toString()+"\n"+s2);
 		if (s1.equals(s2))
-			System.out.println("s1å¯¹è±¡ä¸s2å¯¹è±¡ç›¸ç­‰");
+			System.out.println("s1¶ÔÏóÓës2¶ÔÏóÏàµÈ");
 		else
-			System.out.println("s1å¯¹è±¡ä¸s2å¯¹è±¡ä¸ç›¸ç­‰");
+			System.out.println("s1¶ÔÏóÓës2¶ÔÏó²»ÏàµÈ");
 
-		//å­—ç¬¦ä¸²så’Œtæœ‰ç›¸åŒçš„æ•£åˆ—ç ï¼Œæ˜¯å› ä¸ºå­—ç¬¦ä¸²çš„æ•£åˆ—ç æ˜¯ç”±å†…å®¹å¯¼å‡ºçš„
+		//×Ö·û´®sºÍtÓĞÏàÍ¬µÄÉ¢ÁĞÂë£¬ÊÇÒòÎª×Ö·û´®µÄÉ¢ÁĞÂëÊÇÓÉÄÚÈİµ¼³öµÄ
 		String s = "OK";
 		String t = new String(s);
 		System.out.println(s.hashCode() +"\n"+ t.hashCode());
 
-		//å­—ç¬¦ä¸²sbå’Œtbå…·ä½“ä¸åŒçš„æ•£åˆ—ç ï¼Œæ˜¯å› ä¸ºåœ¨StringBuilderç±»é‡Œé¢æ²¡æœ‰å®šä¹‰hashCodeæ–¹æ³•
-		//å®ƒçš„æ•£åˆ—ç æ˜¯ç”±Objectçš„é»˜è®¤hashCodeæ–¹æ³•å¯¼å‡ºçš„å¯¹è±¡å­˜å‚¨åœ°å€
+		//×Ö·û´®sbºÍtb¾ßÌå²»Í¬µÄÉ¢ÁĞÂë£¬ÊÇÒòÎªÔÚStringBuilderÀàÀïÃæÃ»ÓĞ¶¨ÒåhashCode·½·¨
+		//ËüµÄÉ¢ÁĞÂëÊÇÓÉObjectµÄÄ¬ÈÏhashCode·½·¨µ¼³öµÄ¶ÔÏó´æ´¢µØÖ·
 		StringBuilder sb = new StringBuilder(s);
 		StringBuilder tb = new StringBuilder(t);
 		System.out.println(sb.hashCode() +"\n"+ tb.hashCode());
@@ -49,30 +49,30 @@ class Student {
 		this.studentNumber = studentNumber;
 	}
 	/**
-	 * å¯¹è±¡å€¼çš„å­—ç¬¦ä¸²è¡¨ç¤º
-	 * éšå¤„å¯è§toStringæ–¹æ³•çš„ä¸»è¦åŸå› æ˜¯åªè¦å¯¹è±¡ä¸ä¸€ä¸ªæ“ä½œç¬¦+è¿æ¥èµ·æ¥ï¼ŒJavaç¼–è¯‘å°±ä¼šè‡ªåŠ¨çš„è°ƒç”¨
-	 * toStringï¼Œä»¥ä¾¿è·å¾—è¿™ä¸ªå¯¹è±¡çš„å­—ç¬¦ä¸²æè¿°
-	 * return "å§“åæ˜¯:" +name.toString() +"  å¹´é¾„æ˜¯:"+Integer.valueOf(age).toString();
+	 * ¶ÔÏóÖµµÄ×Ö·û´®±íÊ¾
+	 * Ëæ´¦¿É¼ûtoString·½·¨µÄÖ÷ÒªÔ­ÒòÊÇÖ»Òª¶ÔÏóÓëÒ»¸ö²Ù×÷·û+Á¬½ÓÆğÀ´£¬Java±àÒë¾Í»á×Ô¶¯µÄµ÷ÓÃ
+	 * toString£¬ÒÔ±ã»ñµÃÕâ¸ö¶ÔÏóµÄ×Ö·û´®ÃèÊö
+	 * return "ĞÕÃûÊÇ:" +name.toString() +"  ÄêÁäÊÇ:"+Integer.valueOf(age).toString();
 	 */
 	@Override
 	public String toString() {
-		return "å§“åæ˜¯:" +name +"å¹´é¾„æ˜¯:"+age;
+		return "ĞÕÃûÊÇ:" +name +"ÄêÁäÊÇ:"+age;
 	}
 
 	/**
-	 * å¦‚æœé‡æ–°å®šä¹‰äº†equalsæ–¹æ³•ï¼Œå°±å¿…é¡»é‡æ–°å®šä¹‰hashCodeæ–¹æ³•ï¼Œä»¥ä¾¿ç”¨æˆ·å¯ä»¥å°†å¯¹è±¡æ’å…¥åˆ°æ•£åˆ—è¡¨ä¸­
-	 * ä¸ºä»€ä¹ˆå‘¢ï¼Ÿå› ä¸ºå¦‚æœ2ä¸ªå¯¹è±¡ç›¸ç­‰ï¼Œé‚£ä¹ˆå°±æ˜¯åŒä¸€ä¸ªå¯¹è±¡ï¼Œå¦‚æœæ’å…¥åˆ°ä¸åŒçš„æ•£åˆ—è¡¨ä¸­ä¼šé€ æˆèµ„æºæµªè´¹
+	 * Èç¹ûÖØĞÂ¶¨ÒåÁËequals·½·¨£¬¾Í±ØĞëÖØĞÂ¶¨ÒåhashCode·½·¨£¬ÒÔ±ãÓÃ»§¿ÉÒÔ½«¶ÔÏó²åÈëµ½É¢ÁĞ±íÖĞ
+	 * ÎªÊ²Ã´ÄØ£¿ÒòÎªÈç¹û2¸ö¶ÔÏóÏàµÈ£¬ÄÇÃ´¾ÍÊÇÍ¬Ò»¸ö¶ÔÏó£¬Èç¹û²åÈëµ½²»Í¬µÄÉ¢ÁĞ±íÖĞ»áÔì³É×ÊÔ´ÀË·Ñ
 	 */
 	@Override
 	public boolean equals(Object obj) {
 		Student stu = (Student) obj;
-		// Stringä¹Ÿéœ€è¦ç”¨equalsåˆ¤æ–­
+		// StringÒ²ĞèÒªÓÃequalsÅĞ¶Ï
 		if (stu.name.equals(this.name) && stu.studentNumber == this.studentNumber)
 			return true;
 		return false;
 	}
 	/**
-	 * å› ä¸ºequalsæ¯”è¾ƒçš„æ˜¯å§“åå’Œå­¦å·2ä¸ªå­—æ®µï¼Œæ‰€ä»¥hashCodeåªæ•£åˆ—äº†å­¦ç”Ÿçš„å§“åå’Œå­¦å·2ä¸ªå­—æ®µ
+	 * ÒòÎªequals±È½ÏµÄÊÇĞÕÃûºÍÑ§ºÅ2¸ö×Ö¶Î£¬ËùÒÔhashCodeÖ»É¢ÁĞÁËÑ§ÉúµÄĞÕÃûºÍÑ§ºÅ2¸ö×Ö¶Î
 	 */
 	@Override
 	public int hashCode() {

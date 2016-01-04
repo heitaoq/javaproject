@@ -2,17 +2,17 @@ package src.Algorithms2;
 
 import java.util.Arrays;
 /**
- * ç¼–ç¨‹ä¹‹ç¾Ž,å¿«é€Ÿå¯»æ‰¾æ»¡è¶³æ¡ä»¶çš„2ä¸ªæ•°
- * ç‚¹è¯„ï¼šé¢è¯•ä¸­å¾ˆå¤šé¢˜ç›®éƒ½æ˜¯ç»™å®šä¸€ä¸ªæ•°ç»„,è¦æ±‚è¿”å›ž2ä¸ªä¸‹æ ‡çš„(æ¯”å¦‚æ‰¾2ä¸ªå…ƒç´ ,æˆ–è€…æ‰¾ä¸€ä¸ªå­æ•°ç»„)
- * è€Œç›¸åº”æ¯”è¾ƒé«˜æ•ˆçš„è§£æ³•åˆ™æ˜¯å…ˆæŽ’åº,ç„¶åŽåœ¨ä¸€ä¸ªå¾ªçŽ¯ä½“é‡Œç”¨2ä¸ªå˜é‡(æŒ‡é’ˆ)è¿›è¡Œåå‘çš„éåŽ†
+ * ±à³ÌÖ®ÃÀ,¿ìËÙÑ°ÕÒÂú×ãÌõ¼þµÄ2¸öÊý
+ * µãÆÀ£ºÃæÊÔÖÐºÜ¶àÌâÄ¿¶¼ÊÇ¸ø¶¨Ò»¸öÊý×é,ÒªÇó·µ»Ø2¸öÏÂ±êµÄ(±ÈÈçÕÒ2¸öÔªËØ,»òÕßÕÒÒ»¸ö×ÓÊý×é)
+ * ¶øÏàÓ¦±È½Ï¸ßÐ§µÄ½â·¨ÔòÊÇÏÈÅÅÐò,È»ºóÔÚÒ»¸öÑ­»·ÌåÀïÓÃ2¸ö±äÁ¿(Ö¸Õë)½øÐÐ·´ÏòµÄ±éÀú
  *
  */
 public class FindTwoNumberEqualsOneNumber {
 
 	public boolean find(int[] arr,int value) {
 		if(arr == null)
-			throw new NullPointerException(); // è¿™ä¸ªåœ°æ–¹åˆ°åº•æ€Žä¹ˆåšå¾—æ ¹æ®ä½ çš„éœ€è¦è€Œå®šï¼Œå¹¶ä¸ä¸€å®šæ˜¯è¦è¿”å›žä¸€ä¸ªNPE
-		//è¦å…ˆæŽ’åº
+			throw new NullPointerException(); // Õâ¸öµØ·½µ½µ×ÔõÃ´×öµÃ¸ù¾ÝÄãµÄÐèÒª¶ø¶¨£¬²¢²»Ò»¶¨ÊÇÒª·µ»ØÒ»¸öNPE
+		//ÒªÏÈÅÅÐò
 		Arrays.sort(arr);
 		int i = 0;
 		int j = arr.length - 1;

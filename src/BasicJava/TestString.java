@@ -1,4 +1,4 @@
-package BasicJava;
+package src.BasicJava;
 
 import java.util.concurrent.atomic.AtomicLong;
 

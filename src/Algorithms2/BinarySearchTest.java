@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BinarySearchTest {
 
 	/**
-	 * äºŒåˆ†æŸ¥æ‰¾è¦æ±‚æ•°åˆ—æœ‰åº
+	 * ¶ş·Ö²éÕÒÒªÇóÊıÁĞÓĞĞò
 	 * @param arr
 	 * @param a
 	 * @return
@@ -14,7 +14,7 @@ public class BinarySearchTest {
 		int i = 0;
 		int j = arr.length-1;
 		while(i <= j) { // Remember that equal sign is necessary.
-			int middle = (i+j) >> 1;//æ— ç¬¦å·å³ç§»
+			int middle = (i+j) >> 1;//ÎŞ·ûºÅÓÒÒÆ
 			if(a == arr[middle]) {
 				return true;
 			} else if (a > arr[middle]) {

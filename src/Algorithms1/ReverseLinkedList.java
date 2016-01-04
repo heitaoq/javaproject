@@ -24,12 +24,12 @@ public class ReverseLinkedList {
 		return node;
 	}
 	/**
-	 * å•é“¾è¡¨çš„ç¿»è½¬
-	 * é€’å½’æ‰“å°
+	 * µ¥Á´±íµÄ·­×ª
+	 * µİ¹é´òÓ¡
 	 * @param node
 	 */
 	void reverseLinkedList(QNode node){
-		//é€’å½’çš„ç»ˆæ­¢æ¡ä»¶
+		//µİ¹éµÄÖÕÖ¹Ìõ¼ş
 		if(node!=null) {
 			reverseLinkedList(node.next);
 			System.out.print(node.data + " ");

@@ -69,10 +69,10 @@ public class StreamTest {
     ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
     String s = "hello, gaolun , are you a sb ?";
     byte[] bytes1 = s.getBytes();
-    outputStream.write(bytes1); // æŠŠ byte1 å†…å®¹å†™åˆ° output streamé‡Œé¢å»
+    outputStream.write(bytes1); // °Ñ byte1 ÄÚÈİĞ´µ½ output streamÀïÃæÈ¥
     OutputStream outputStream1 = new FileOutputStream("test.txt");
     outputStream.writeTo(outputStream1);
-    outputStream.reset(); // é¿å…é‡å¤å†™ and make the number of valid bytes in the buffer to zero.
+    outputStream.reset(); // ±ÜÃâÖØ¸´Ğ´ and make the number of valid bytes in the buffer to zero.
     outputStream.write('X');
     outputStream.write('Y');
     outputStream.write('Z');

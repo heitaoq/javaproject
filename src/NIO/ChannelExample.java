@@ -26,11 +26,11 @@ public class ChannelExample {
       while (byteBuffer.hasRemaining()) {
         /**
          * A buffer's limit is the index of the first element that should not be read or written.
-         * limit å°±æ˜¯å®é™…å­˜å‚¨çš„å¤šå°‘å­—èŠ‚æ•°
+         * limit ¾ÍÊÇÊµ¼Ê´æ´¢µÄ¶àÉÙ×Ö½ÚÊı
          */
         System.out.print((char)byteBuffer.get());
       } // while end, that is mean, position is equals to limit.
-      byteBuffer.clear(); // å½“åœ¨ position å’Œ limit ä¹‹é—´æ²¡æœ‰å…ƒç´ çš„æ—¶å€™å°±è¦æ¸…é™¤ç¼“å†²åŒºäº†
+      byteBuffer.clear(); // µ±ÔÚ position ºÍ limit Ö®¼äÃ»ÓĞÔªËØµÄÊ±ºò¾ÍÒªÇå³ı»º³åÇøÁË
     }
     file.close();
   }

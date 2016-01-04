@@ -3,7 +3,7 @@ package src.Tree;
 public class NumberOfNodesIn2XTree {
 
 	/**
-	 * æ±‚2Xæ ‘ç»“ç‚¹çš„ä¸ªæ•°
+	 * Çó2XÊ÷½áµãµÄ¸öÊı
 	 * @param root
 	 * @return
 	 */
@@ -14,8 +14,8 @@ public class NumberOfNodesIn2XTree {
 			return 0;
 	}
 	/**
-	 * æ±‚äºŒå‰æ ‘ç¬¬Kå±‚çš„èŠ‚ç‚¹ä¸ªæ•°,æ€è·¯æ˜¯å¦‚æœæ±‚ç¬¬kå±‚çš„ç»“ç‚¹ä¸ªæ•°,é‚£ä¹ˆå°±æ˜¯æ±‚ç¬¬ k-1å±‚
-	 * çš„å·¦å³å­©å­çš„ç»“ç‚¹ä¸ªæ•°çš„å’Œ
+	 * Çó¶ş²æÊ÷µÚK²ãµÄ½Úµã¸öÊı,Ë¼Â·ÊÇÈç¹ûÇóµÚk²ãµÄ½áµã¸öÊı,ÄÇÃ´¾ÍÊÇÇóµÚ k-1²ã
+	 * µÄ×óÓÒº¢×ÓµÄ½áµã¸öÊıµÄºÍ
 	 * @param root
 	 * @return
 	 */
@@ -29,9 +29,9 @@ public class NumberOfNodesIn2XTree {
 		return numLeft + numRight;
 	}
 	/**
-	 * æ±‚2Xæ ‘ä¸­å¶å­ç»“ç‚¹çš„ä¸ªæ•°,æ€è·¯æ˜¯.ä»€ä¹ˆæ˜¯å¶å­ç»“ç‚¹ï¼Ÿæœ‰ä»€ä¹ˆæ€§è´¨ï¼Ÿ
-	 * å·¦å³å­æ ‘ä¸ºç©ºçš„ç»“ç‚¹å³ä¸ºå¶å­ç»“ç‚¹
-	 * é€’å½’çš„éå†æ¯ä¸€ä¸ªç»“ç‚¹,åªè¦å‘ç°è¿™ä¸ªç»“ç‚¹çš„å·¦å³å­æ ‘ä¸ºç©ºå°±åŠ 1
+	 * Çó2XÊ÷ÖĞÒ¶×Ó½áµãµÄ¸öÊı,Ë¼Â·ÊÇ.Ê²Ã´ÊÇÒ¶×Ó½áµã£¿ÓĞÊ²Ã´ĞÔÖÊ£¿
+	 * ×óÓÒ×ÓÊ÷Îª¿ÕµÄ½áµã¼´ÎªÒ¶×Ó½áµã
+	 * µİ¹éµÄ±éÀúÃ¿Ò»¸ö½áµã,Ö»Òª·¢ÏÖÕâ¸ö½áµãµÄ×óÓÒ×ÓÊ÷Îª¿Õ¾Í¼Ó1
 	 * @param root
 	 * @return
 	 */
@@ -44,8 +44,8 @@ public class NumberOfNodesIn2XTree {
 	}
 
 	/**
-	 * åˆ¤æ–­2æ£µ2Xæ ‘æ˜¯å¦ç»“æ„ç›¸åŒ
-	 * é€’å½’çš„å»åˆ¤æ–­æ¯ä¸€ä¸ªç»“ç‚¹
+	 * ÅĞ¶Ï2¿Ã2XÊ÷ÊÇ·ñ½á¹¹ÏàÍ¬
+	 * µİ¹éµÄÈ¥ÅĞ¶ÏÃ¿Ò»¸ö½áµã
 	 * @param root1
 	 * @param root2
 	 * @return
@@ -60,11 +60,11 @@ public class NumberOfNodesIn2XTree {
 		return leftTree && rightTree;
 	}
 	/**
-	 * æ±‚2Xæ ‘çš„é•œåƒ
+	 * Çó2XÊ÷µÄ¾µÏñ
 	 * @param root
 	 */
 	public void mirrorOf2XTree(TreeNode root){
-		//å½“æ ‘ä¸å­˜åœ¨æˆ–è€…åªæœ‰æ ¹ç»“ç‚¹
+		//µ±Ê÷²»´æÔÚ»òÕßÖ»ÓĞ¸ù½áµã
 		if(root == null || (root.left ==null) &&
 				(root.right == null))
 			return;
@@ -78,7 +78,7 @@ public class NumberOfNodesIn2XTree {
 			mirrorOf2XTree(root.right);
 	}
 	/**
-	 * æ±‚2Xæ ‘ä¸­2ä¸ªç»“ç‚¹çš„æœ€å¤§è·ç¦»
+	 * Çó2XÊ÷ÖĞ2¸ö½áµãµÄ×î´ó¾àÀë
 	 * @param root
 	 * @return
 	 */

@@ -11,9 +11,9 @@ class ListNode {
 }
 /**
  list1     1
- 						â†˜
- 							3 â†’ 4 â†’ 5
- 						â†—
+ 						¨K
+ 							3 ¡ú 4 ¡ú 5
+ 						¨J
  list2	  2
  */
 public class Crosspoint {
@@ -33,7 +33,7 @@ public class Crosspoint {
 			setA.add(headA);
 			headA = headA.next;
 		}
-		//æ¥ä¸‹æ¥,å¯¹headBé‡Œé¢çš„æ¯ä¸€ä¸ªå…ƒç´ ,å»HashSeté‡Œé¢æŸ¥è¯¢
+		//½ÓÏÂÀ´,¶ÔheadBÀïÃæµÄÃ¿Ò»¸öÔªËØ,È¥HashSetÀïÃæ²éÑ¯
 		while(headB != null) {
 			if(setA.contains(headB)) {
 				node = headB;
