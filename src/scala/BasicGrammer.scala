@@ -25,8 +25,12 @@ object BasicGrammer {
   def sumsquare(a:Int, b:Int):Int = sum(square, a, b)
 
   def main(args: Array[String]): Unit = {
-    println(sumPowersOfTwo(1,3))
-    println(sumInts(1,3))
-    println(sumsquare(1,3))
+//    println(sumPowersOfTwo(1,3))
+//    println(sumInts(1,3))
+//    println(sumsquare(1,3))
+    val a: Char = 'z' // if 65536, will wrong
+    val b: Byte = 'z' // if 128, will wrong
+    println(a)
+    println(b)
   }
 }
