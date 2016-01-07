@@ -3,17 +3,12 @@ package src.Leecode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Created by root on 16-1-5.
  */
 public class MaximumDepthBinaryTree {
-
-
-  public static int maxDepthByDFS(TreeNode root) {
-    
-    return 0;
-  }
 
   /**
    * You can use BFS rather than DFS, store every leaf node depth into a array, and select the max value is ok.
@@ -60,16 +55,22 @@ public class MaximumDepthBinaryTree {
    * keywords Depth-first Search
    * <p/>
    * The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+   * This method also called DFS.
    */
-  public static int maxDepthByResursion(TreeNode root) {
+  public static int maxDepthByDFS(TreeNode root) {
     if (root == null)
       return 0;
     if (root.left == null)
-      return maxDepthByResursion(root.right) + 1;
+      return maxDepthByDFS(root.right) + 1;
     if (root.right == null)
-      return maxDepthByResursion(root.left) + 1;
-    return Math.max(maxDepthByResursion(root.left), maxDepthByResursion(root.right)) + 1;
+      return maxDepthByDFS(root.left) + 1;
+    return Math.max(maxDepthByDFS(root.left), maxDepthByDFS(root.right)) + 1;
   }
+
+  public static int maxDepthByDFSOneLineCode(TreeNode root) {
+    return root == null ? 0 : Math.max(maxDepthByDFSOneLineCode(root.left), maxDepthByDFSOneLineCode(root.right)) + 1;
+  }
+
 
   public static void main(String[] args) {
     TreeNode root = new TreeNode(1);
@@ -78,7 +79,7 @@ public class MaximumDepthBinaryTree {
     root.left.left = new TreeNode(4);
     root.left.left.left = new TreeNode(7);
     root.left.left.right = new TreeNode(5);
-    System.out.println(maxDepthByResursion(root));
+    System.out.println(maxDepthByDFS(root));
     System.out.println(maxDepthByBFS(root));
   }
 }
