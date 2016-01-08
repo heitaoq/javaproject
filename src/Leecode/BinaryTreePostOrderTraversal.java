@@ -10,7 +10,7 @@ import java.util.List;
 public class BinaryTreePostOrderTraversal {
 
   public List<Integer> postorderTraversal(TreeNode root) {
-    
+
   }
 
   public static void main(String[] args) {
