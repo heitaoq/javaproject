@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/BasicDS.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/EffectiveMaxMinInArray.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/HashMap_Hashtable.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/JudgeAInB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/ListTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/PalindromeStringMaxLength.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/ReverseLinkedList.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/ReverseString.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/StringBuffer_StringBuilder_String.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/StringPool.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/StringTest_Reflect.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/StringToInt.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/equals_hashcode.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms1/polymorphic.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms2/BigData.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms2/BinarySearchTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms2/Crosspoint.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms2/FindNumberMoreThanHalfOfArray.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms2/FindTwoNumberEqualsOneNumber.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/BreadFirstSearch.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/IntegerNumberNoSizeof.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/OneInBinaryNumber.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/QueueFromStack.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/RandomNumberWithNoRepeated.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/ReverseLinkedList.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/ReverseWordsInaString.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Algorithms3/TransposeMatrix.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/BasicJava/StreamTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/BasicJava/TestEquals.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HashTable/JudgeNumInArrayEquals.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HashTable/LengthOfLongestSubstring.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HashTable/SingleCharacter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HashTable/SingleNumber.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HashTable/ValidSudoku.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/NIO/ChannelExample.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TestJDK/ComparatorDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TestJDK/JDKTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TestJDK/MapEntryTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TestJDK/RandomAccessTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Tree/NumberOfNodesIn2XTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Tree/TwoXTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scala/IteratorTest.scala" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/scala/Similarity.scala" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

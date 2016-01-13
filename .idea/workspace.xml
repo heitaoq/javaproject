@@ -2,7 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785574ed-24a5-4ab4-8e2b-0e541758e2c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Leecode/BinaryTreePostOrderTraversal.java" afterPath="$PROJECT_DIR$/src/Leecode/BinaryTreePostOrderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Leecode/BitManipulation/NumberOf_1_Bits.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Leecode/BitManipulation/reverseBits.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Leecode/Math/PowerOfThree.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Leecode/MissingNumber.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Leecode/SingleNumber.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scala/Files.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scala/SystemTest.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Algorithms1/BigDecimalTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/BigDecimalTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/BinaryTreeLevelOrderTraversal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/BinaryTreePaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/MaximumDepthBinaryTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/MinimumDepthBinaryTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/TreeNode.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leecode/BinaryTreeLevelOrderTraversal.java" afterPath="$PROJECT_DIR$/src/Leecode/Tree/BinaryTreeLevelOrderTraversal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leecode/BinaryTreePaths.java" afterPath="$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePaths.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leecode/BinaryTreePostOrderTraversal.java" afterPath="$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePostOrderTraversal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leecode/MaximumDepthBinaryTree.java" afterPath="$PROJECT_DIR$/src/Leecode/Tree/MaximumDepthBinaryTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leecode/MinimumDepthBinaryTree.java" afterPath="$PROJECT_DIR$/src/Leecode/Tree/MinimumDepthBinaryTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leecode/TreeNode.java" afterPath="$PROJECT_DIR$/src/Leecode/Tree/TreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BasicJava/TestException.class" afterPath="$PROJECT_DIR$/target/classes/BasicJava/TestException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/CLassLoaderTest$1.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/CLassLoaderTest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/CLassLoaderTest.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/CLassLoaderTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$1.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$2.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$3.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$4.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$5.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/MultiClient$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/MultiClient.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/MultiClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/ParallelComputerSumArray.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/ParallelComputerSumArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/TaskExecutionServer$1.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/TaskExecutionServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/TaskExecutionServer.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/TaskExecutionServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/ThreadPerTaskClient.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/ThreadPerTaskClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/ThreadPerTaskServer$1.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/ThreadPerTaskServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/ThreadPerTaskServer.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/ThreadPerTaskServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hash_X/ThreadSafety_SumNumOfClient.class" afterPath="$PROJECT_DIR$/target/classes/hash_X/ThreadSafety_SumNumOfClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/BasicDS.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/BasicDS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/Car.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/Car.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/EffectiveMaxMinInArray.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/EffectiveMaxMinInArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/Employee.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/HashMap_Hashtable.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/HashMap_Hashtable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/HashSetTest.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/HashSetTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/HeapOOM$OOMObject.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/HeapOOM$OOMObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/HeapOOM.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/HeapOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/Horse.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/Horse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/JudgeAInB.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/JudgeAInB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/ListTest.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/ListTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/Node.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/PalindromeStringMaxLength.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/PalindromeStringMaxLength.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/QNode.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/QNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/Qizi.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/Qizi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/QueueTest.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/QueueTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/ReverseLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/ReverseLinkedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/ReverseString.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/ReverseString.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringBuffer_StringBuilder_String.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringBuffer_StringBuilder_String.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringPool.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringTest_Reflect.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringTest_Reflect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringToInt.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/StringToInt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/Student.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/TestStackAndQueue.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/TestStackAndQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/equals_hashcode.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/equals_hashcode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms1/polymorphic.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms1/polymorphic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms2/BinarySearchTest.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms2/BinarySearchTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms2/Crosspoint.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms2/Crosspoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms2/FindNumberMoreThanHalfOfArray.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms2/FindNumberMoreThanHalfOfArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms2/FindTwoNumberEqualsOneNumber.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms2/FindTwoNumberEqualsOneNumber.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms2/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms2/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms2/SplitTest.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms2/SplitTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/BreadFirstSearch.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/BreadFirstSearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/IntegerNumberNoSizeof.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/IntegerNumberNoSizeof.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/Node.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/OneInBinaryNumber.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/OneInBinaryNumber.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/QueueFromStack.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/QueueFromStack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/RandomNumberWithNoRepeated.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/RandomNumberWithNoRepeated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/ReverseLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/ReverseLinkedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/ReverseWordsInaString.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/ReverseWordsInaString.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Algorithms3/TransposeMatrix.class" afterPath="$PROJECT_DIR$/target/classes/src/Algorithms3/TransposeMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/Exception/TestException.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/Exception/TestException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/StreamTest.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/StreamTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/Stu.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/Stu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/Student.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/Test.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/TestEquals.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/TestEquals.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/TestReference.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/TestReference.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/TestReflect.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/TestReflect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/TestString.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/TestString.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BasicJava/TestVector.class" afterPath="$PROJECT_DIR$/target/classes/src/BasicJava/TestVector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/BlockQueue.class" afterPath="$PROJECT_DIR$/target/classes/src/BlockQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/DataStructure/StackOverFlowError.class" afterPath="$PROJECT_DIR$/target/classes/src/DataStructure/StackOverFlowError.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/GenerateServerFileOnHDFS$1.class" afterPath="$PROJECT_DIR$/target/classes/src/GenerateServerFileOnHDFS$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/GenerateServerFileOnHDFS.class" afterPath="$PROJECT_DIR$/target/classes/src/GenerateServerFileOnHDFS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/JudgeNumInArrayEquals.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/JudgeNumInArrayEquals.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/LengthOfLongestSubstring.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/LengthOfLongestSubstring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/NumberOfTimes.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/NumberOfTimes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/OneTargetNumberIsOrNot_In_an_Array.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/OneTargetNumberIsOrNot_In_an_Array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/Remove.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/Remove.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/RemoveAInB.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/RemoveAInB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/SingleCharacter.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/SingleCharacter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/SingleNumber.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/SingleNumber.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/SolveLengthOfLongestSubstring.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/SolveLengthOfLongestSubstring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/SolveOneTargetNumberIsOrNot_In_an_Array.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/SolveOneTargetNumberIsOrNot_In_an_Array.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/SolveSingleCharacter.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/SolveSingleCharacter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/SolveSingleNumber.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/SolveSingleNumber.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/SolveValidSudoku.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/SolveValidSudoku.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/TestArrayList.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/TestArrayList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/HashTable/ValidSudoku.class" afterPath="$PROJECT_DIR$/target/classes/src/HashTable/ValidSudoku.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/ListNode.class" afterPath="$PROJECT_DIR$/target/classes/src/Leecode/ListNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/RotateArray.class" afterPath="$PROJECT_DIR$/target/classes/src/Leecode/RotateArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Leecode/RotateList.class" afterPath="$PROJECT_DIR$/target/classes/src/Leecode/RotateList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/NIO/ChannelExample.class" afterPath="$PROJECT_DIR$/target/classes/src/NIO/ChannelExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/NIO/TestFileChannel.class" afterPath="$PROJECT_DIR$/target/classes/src/NIO/TestFileChannel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/NIO/TestPath.class" afterPath="$PROJECT_DIR$/target/classes/src/NIO/TestPath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Person.class" afterPath="$PROJECT_DIR$/target/classes/src/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/ReadWriteFileCallable.class" afterPath="$PROJECT_DIR$/target/classes/src/ReadWriteFileCallable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/RunBenchmarkToolServerTimes.class" afterPath="$PROJECT_DIR$/target/classes/src/RunBenchmarkToolServerTimes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Serialization/Test1.class" afterPath="$PROJECT_DIR$/target/classes/src/Serialization/Test1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Serialization/Test2.class" afterPath="$PROJECT_DIR$/target/classes/src/Serialization/Test2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Serialization/Test3.class" afterPath="$PROJECT_DIR$/target/classes/src/Serialization/Test3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Serialization/TestTest3.class" afterPath="$PROJECT_DIR$/target/classes/src/Serialization/TestTest3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/Car.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/Car.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/ComparatorDemo.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/ComparatorDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/Enumeration_IteratorDemo.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/Enumeration_IteratorDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/JDKTest$1.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/JDKTest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/JDKTest$TestComparator.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/JDKTest$TestComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/JDKTest.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/JDKTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/MapEntryTest.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/MapEntryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/RandomAccessTest.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/RandomAccessTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/Student.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestJDK/StudentComparator.class" afterPath="$PROJECT_DIR$/target/classes/src/TestJDK/StudentComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/TestStaticVal.class" afterPath="$PROJECT_DIR$/target/classes/src/TestStaticVal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Tree/NumberOfNodesIn2XTree.class" afterPath="$PROJECT_DIR$/target/classes/src/Tree/NumberOfNodesIn2XTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Tree/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/src/Tree/TreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/Tree/TwoXTree.class" afterPath="$PROJECT_DIR$/target/classes/src/Tree/TwoXTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$1.class" afterPath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$2.class" afterPath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$3.class" afterPath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$4.class" afterPath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$5.class" afterPath="$PROJECT_DIR$/target/classes/src/UseBlockQueue$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseBlockQueue.class" afterPath="$PROJECT_DIR$/target/classes/src/UseBlockQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseReenBQ$1.class" afterPath="$PROJECT_DIR$/target/classes/src/UseReenBQ$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseReenBQ$2.class" afterPath="$PROJECT_DIR$/target/classes/src/UseReenBQ$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseReenBQ$3.class" afterPath="$PROJECT_DIR$/target/classes/src/UseReenBQ$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseReenBQ$4.class" afterPath="$PROJECT_DIR$/target/classes/src/UseReenBQ$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseReenBQ.class" afterPath="$PROJECT_DIR$/target/classes/src/UseReenBQ.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/UseReentrantLockImpBlockQueue.class" afterPath="$PROJECT_DIR$/target/classes/src/UseReentrantLockImpBlockQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/handsomeBoy/HelloWorld.class" afterPath="$PROJECT_DIR$/target/classes/src/handsomeBoy/HelloWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/hash_X/Car.class" afterPath="$PROJECT_DIR$/target/classes/src/hash_X/Car.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/hash_X/Test.class" afterPath="$PROJECT_DIR$/target/classes/src/hash_X/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/AbsIterator.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/AbsIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$sumInts$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$sumInts$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$sumPowersOfTwo$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$sumPowersOfTwo$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$sumsquare$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$$anonfun$sumsquare$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/BasicGrammer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest$.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest$delayedInit$body.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/IteratorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/Point.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/Point.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$sort$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$sort$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$sort$2.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$sort$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$sort$3.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$$anonfun$sort$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/QuickSort$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/QuickSort.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/QuickSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/RichIterator$class.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/RichIterator$class.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/RichIterator.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/RichIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/Similarity$class.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/Similarity$class.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/Similarity.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/Similarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/StringIterator.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/StringIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest$.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest$Iter$1.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest$Iter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/StringIteratorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/TraitsTest$.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/TraitsTest$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/TraitsTest$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/TraitsTest$delayedInit$body.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/src/scala/TraitsTest.class" afterPath="$PROJECT_DIR$/target/classes/src/scala/TraitsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flatbuffers-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,26 +205,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryTreePostOrderTraversal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreePostOrderTraversal.java">
+      <file leaf-file-name="reverseBits.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Leecode/BitManipulation/reverseBits.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6013363">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-              <folding>
-                <element signature="e#315#324#0" expanded="true" />
-                <element signature="e#365#375#0" expanded="true" />
-                <element signature="e#987#996#0" expanded="true" />
-                <element signature="e#1037#1047#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="210" column="42" selection-start-line="210" selection-start-column="42" selection-end-line="210" selection-end-column="42" />
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicGrammer.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/BasicGrammer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/SystemTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Files.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/Files.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Console.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/Console.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="268" column="6" selection-start-line="268" selection-start-column="6" selection-end-line="268" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferedReader.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/Downloads/jdk1.7.0_79/src.zip!/java/io/BufferedReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42756185">
+              <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/jdk1.7.0_79/src.zip!/java/util/Properties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="949" column="18" selection-start-line="949" selection-start-column="18" selection-end-line="949" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/App.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -55,6 +301,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -75,6 +322,22 @@
         <option value="$PROJECT_DIR$/src/scala/DummyImpl.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/Leecode/BinaryTreePostOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Leecode/SingleNumber.scala" />
+        <option value="$PROJECT_DIR$/src/Leecode/MissingNumber.scala" />
+        <option value="$PROJECT_DIR$/src/Leecode/reverseBits.scala" />
+        <option value="$PROJECT_DIR$/src/Leecode/NumberOf_1_Bits.scala" />
+        <option value="$PROJECT_DIR$/src/Leecode/BitManipulation/NumberOf_1_Bits.scala" />
+        <option value="$PROJECT_DIR$/src/Leecode/Tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/Leecode/Tree/MinimumDepthBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/Leecode/Tree/MaximumDepthBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePostOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePaths.java" />
+        <option value="$PROJECT_DIR$/src/Leecode/Tree/BinaryTreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/Leecode/Math/PowerOfThree.scala" />
+        <option value="$PROJECT_DIR$/src/Leecode/BitManipulation/reverseBits.scala" />
+        <option value="$PROJECT_DIR$/src/scala/propertity.conf" />
+        <option value="$PROJECT_DIR$/src/scala/SystemTest.scala" />
+        <option value="$PROJECT_DIR$/src/scala/Files.scala" />
       </list>
     </option>
   </component>
@@ -87,9 +350,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -116,14 +379,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flatbuffers-java" />
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -133,7 +396,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flatbuffers-java" />
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -143,7 +406,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flatbuffers-java" />
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -157,7 +420,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flatbuffers-java" />
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -169,7 +432,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Leecode" />
+              <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -178,17 +441,107 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/incubator-zeppelin/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.48850575" />
   </component>
-  <component name="RunManager" selected="Application.BinaryTreePaths">
-    <configuration default="false" name="BinaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="src.Leecode.Math" />
+      <recent name="src.Leecode.Tree" />
+      <recent name="src.Leecode.BitManipulation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SystemTest">
+    <configuration default="false" name="SingleNumber" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="src.Leecode.*" />
+          <option name="PATTERN" value="src.Leecode.BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="src.Leecode.BinaryTreePaths" />
+      <option name="MAIN_CLASS_NAME" value="src.Leecode.SingleNumber" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="flatbuffers-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MissingNumber" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.Leecode.BitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.Leecode.MissingNumber" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="flatbuffers-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumberOf_1_Bits" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.Leecode.BitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.Leecode.BitManipulation.NumberOf_1_Bits" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="flatbuffers-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="reverseBits" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.Leecode.BitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.Leecode.BitManipulation.reverseBits" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="flatbuffers-java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SystemTest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.scala.SystemTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -490,12 +843,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreePaths" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.SingleNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MissingNumber" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NumberOf_1_Bits" />
+      <item index="3" class="java.lang.String" itemvalue="Application.reverseBits" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SystemTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreePaths" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.SystemTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.reverseBits" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NumberOf_1_Bits" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MissingNumber" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SingleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -518,29 +879,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4455232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958494" sideWeight="0.5037756" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958494" sideWeight="0.49622437" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958494" sideWeight="0.5037756" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4455232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -558,25 +919,47 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="8" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="i" language="Scala" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreePostOrderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/Leecode/BitManipulation/NumberOf_1_Bits.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#315#324#0" expanded="true" />
-            <element signature="e#365#375#0" expanded="true" />
-            <element signature="e#987#996#0" expanded="true" />
-            <element signature="e#1037#1047#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/SingleNumber.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePostOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms3/BreadFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -588,30 +971,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/MaximumDepthBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#175#176#0" expanded="false" />
-            <element signature="e#199#200#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreePaths.java">
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePostOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="210" column="42" selection-start-line="210" selection-start-column="42" selection-end-line="210" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/MaximumDepthBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -641,7 +1041,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/MinimumDepthBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/MinimumDepthBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
@@ -651,19 +1051,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreeLevelOrderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreeLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#656#665#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/MaximumDepthBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/MaximumDepthBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -679,7 +1084,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/MinimumDepthBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/MinimumDepthBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
@@ -689,20 +1094,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreeLevelOrderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreeLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/MinimumDepthBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#656#665#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,25 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/MaximumDepthBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#175#176#0" expanded="false" />
-            <element signature="e#199#200#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/jdk1.7.0_79/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -759,22 +1138,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreeLevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -783,18 +1146,304 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leecode/BinaryTreePostOrderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/Algorithms3/BreadFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6013363">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms1/BasicDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms1/EffectiveMaxMinInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/SingleNumber.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/collection/mutable/ResizableArray.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/collection/mutable/ArrayBuffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.7.0_79/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="624" column="25" selection-start-line="624" selection-start-column="25" selection-end-line="624" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/collection/IndexedSeqOptimized.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="208" column="6" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/collection/mutable/BufferLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/MaximumDepthBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="e#315#324#0" expanded="true" />
-            <element signature="e#365#375#0" expanded="true" />
-            <element signature="e#987#996#0" expanded="true" />
-            <element signature="e#1037#1047#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Math/PowerOfThree.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePostOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/MissingNumber.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/BitManipulation/NumberOf_1_Bits.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="30" selection-start-line="12" selection-start-column="2" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/BinaryTreeLevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#656#665#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/MinimumDepthBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/scala-2.10.4/src/scala-library-src.jar!/scala/Console.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="268" column="6" selection-start-line="268" selection-start-column="6" selection-end-line="268" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.7.0_79/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="949" column="18" selection-start-line="949" selection-start-column="18" selection-end-line="949" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/SystemTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/Files.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/BitManipulation/reverseBits.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leecode/Tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/BasicGrammer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.7.0_79/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93639576">
+          <caret line="703" column="25" selection-start-line="703" selection-start-column="25" selection-end-line="703" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.7.0_79/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42756185">
+          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48850575" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48850575" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48850575" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48850575" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flatbuffers-java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48850575" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48850575" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
